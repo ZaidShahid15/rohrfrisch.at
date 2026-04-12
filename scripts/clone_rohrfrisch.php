@@ -371,7 +371,17 @@ function localAssetPath(string $url, string $publicAssetRoot): string
     $safePath = ltrim($path, '/');
 
     if ($query) {
-        $safePath .= '--' . md5($query);
+        $extension = pathinfo($safePath, PATHINFO_EXTENSION);
+
+        if ($extension !== '') {
+            $extensionWithDot = '.' . $extension;
+            $basePath = substr($safePath, 0, -strlen($extensionWithDot));
+            $safePath = $basePath . '--' . md5($query) . $extensionWithDot;
+        } elseif ($host === 'fonts.googleapis.com') {
+            $safePath .= '--' . md5($query) . '.css';
+        } else {
+            $safePath .= '--' . md5($query);
+        }
     }
 
     return $publicAssetRoot . DIRECTORY_SEPARATOR . $host . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $safePath);

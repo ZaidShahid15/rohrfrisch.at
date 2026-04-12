@@ -62,64 +62,64 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=global-styles-inline-css */
 </style>
 
-<link rel="stylesheet" id="contact-form-7-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/contact-form-7/includes/css/styles.css--1b463e8dd0f763b3e4aff2131aa1961f" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/contact-form-7/includes/css/styles--1b463e8dd0f763b3e4aff2131aa1961f.css" media="all">
 
 <style id="woocommerce-inline-inline-css">
 .woocommerce form .form-row .required { visibility: visible; }
 /*# sourceURL=woocommerce-inline-inline-css */
 </style>
 
-<link rel="stylesheet" id="slick-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.css--d4d009f105bbb43ac34bbadde940dd59" media="all">
+<link rel="stylesheet" id="slick-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick--d4d009f105bbb43ac34bbadde940dd59.css" media="all">
 
-<link rel="stylesheet" id="perfect-scrollbar-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css--d4d009f105bbb43ac34bbadde940dd59" media="all">
+<link rel="stylesheet" id="perfect-scrollbar-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min--d4d009f105bbb43ac34bbadde940dd59.css" media="all">
 
-<link rel="stylesheet" id="perfect-scrollbar-wpc-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/perfect-scrollbar/css/custom-theme.css--d4d009f105bbb43ac34bbadde940dd59" media="all">
+<link rel="stylesheet" id="perfect-scrollbar-wpc-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/perfect-scrollbar/css/custom-theme--d4d009f105bbb43ac34bbadde940dd59.css" media="all">
 
-<link rel="stylesheet" id="magnific-popup-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/magnific-popup/magnific-popup.css--d4d009f105bbb43ac34bbadde940dd59" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/magnific-popup/magnific-popup--d4d009f105bbb43ac34bbadde940dd59.css" media="all">
 
-<link rel="stylesheet" id="woosq-feather-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather.css--d4d009f105bbb43ac34bbadde940dd59" media="all">
+<link rel="stylesheet" id="woosq-feather-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather--d4d009f105bbb43ac34bbadde940dd59.css" media="all">
 
-<link rel="stylesheet" id="woosq-frontend-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css--c82e181389007d5df291718b8076bda9" media="all">
+<link rel="stylesheet" id="woosq-frontend-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/css/frontend--c82e181389007d5df291718b8076bda9.css" media="all">
 
-<link rel="stylesheet" id="elementor-frontend-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/frontend.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/frontend.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="elementor-post-8-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-8.css--a7123f5c3da3968fafbe0745c31e8d3a" media="all">
+<link rel="stylesheet" id="elementor-post-8-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-8--a7123f5c3da3968fafbe0745c31e8d3a.css" media="all">
 
-<link rel="stylesheet" id="widget-heading-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-heading.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-heading-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-heading.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="widget-rating-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-rating.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-rating-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-rating.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="widget-image-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-image.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-image-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-image.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="widget-icon-list-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-icon-list-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-icon-list.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="widget-table-of-contents-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/widget-table-of-contents.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-table-of-contents-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/widget-table-of-contents.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="widget-nested-accordion-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-nested-accordion-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="elementor-post-3069-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-3069.css--4a3ef106658fc7d68d6e9fe5edbf876b" media="all">
+<link rel="stylesheet" id="elementor-post-3069-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-3069--4a3ef106658fc7d68d6e9fe5edbf876b.css" media="all">
 
-<link rel="stylesheet" id="plumer-style-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/style.css--8a5471f88ca9c58e18cea05ebc9fe21a" media="all">
+<link rel="stylesheet" id="plumer-style-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/style--8a5471f88ca9c58e18cea05ebc9fe21a.css" media="all">
 
-<link rel="stylesheet" id="plumer-fonts-css" href="/site-clone/fonts.googleapis.com/css2--7290a22e33164c5bf010cfb73663cb06" media="all">
+<link rel="stylesheet" id="plumer-fonts-css" href="/site-clone/fonts.googleapis.com/css2--7290a22e33164c5bf010cfb73663cb06.css" media="all">
 
-<link rel="stylesheet" id="bootstrap-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/bootstrap.min.css--5b31223e2ef611d00bfe4e71ed403f89" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/bootstrap.min--5b31223e2ef611d00bfe4e71ed403f89.css" media="all">
 
-<link rel="stylesheet" id="fontawesome-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/fontawesome.min.css--af8e0adc10d41272bdf2588e26ff8149" media="all">
+<link rel="stylesheet" id="fontawesome-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/fontawesome.min--af8e0adc10d41272bdf2588e26ff8149.css" media="all">
 
-<link rel="stylesheet" id="plumer-main-style-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/style.css--8a5471f88ca9c58e18cea05ebc9fe21a" media="all">
+<link rel="stylesheet" id="plumer-main-style-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/style--8a5471f88ca9c58e18cea05ebc9fe21a.css" media="all">
 
-<link rel="stylesheet" id="plumer-color-schemes-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/color.schemes.css--d4d009f105bbb43ac34bbadde940dd59" media="all">
+<link rel="stylesheet" id="plumer-color-schemes-css" href="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/css/color.schemes--d4d009f105bbb43ac34bbadde940dd59.css" media="all">
 
-<link rel="stylesheet" id="elementor-gf-local-roboto-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/roboto.css--74c90d788a32e05c2676e6f4febb2773" media="all">
+<link rel="stylesheet" id="elementor-gf-local-roboto-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/roboto--74c90d788a32e05c2676e6f4febb2773.css" media="all">
 
-<link rel="stylesheet" id="elementor-gf-local-robotoslab-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/robotoslab.css--a3f3b24d58c0bf006367e06d36017d3c" media="all">
+<link rel="stylesheet" id="elementor-gf-local-robotoslab-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/robotoslab--a3f3b24d58c0bf006367e06d36017d3c.css" media="all">
 
-<link rel="stylesheet" id="elementor-gf-local-outfit-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/outfit.css--a6666f3ca24aab6801813aafd1028556" media="all">
+<link rel="stylesheet" id="elementor-gf-local-outfit-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/outfit--a6666f3ca24aab6801813aafd1028556.css" media="all">
 
-<link rel="stylesheet" id="elementor-gf-local-inter-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/inter.css--1db04a6214e908ff170d564044cfb533" media="all">
+<link rel="stylesheet" id="elementor-gf-local-inter-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/inter--1db04a6214e908ff170d564044cfb533.css" media="all">
 
-<link rel="stylesheet" id="elementor-gf-local-poppins-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/poppins.css--8fa8b81788a06a9803f62318006a0e91" media="all">
+<link rel="stylesheet" id="elementor-gf-local-poppins-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/poppins--8fa8b81788a06a9803f62318006a0e91.css" media="all">
 
 <script type="text/template" id="tmpl-variation-template">
 	<div class="woocommerce-variation-description">@{{{ data.variation.variation_description }}}
@@ -131,36 +131,36 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	<p role="alert">Sorry, this product is unavailable. Please choose a different combination.
 </script>
 
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/jquery/jquery.min.js--f43b551b749a36845288913120943cc6" id="jquery-core-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/jquery/jquery.min--f43b551b749a36845288913120943cc6.js" id="jquery-core-js"></script>
 
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/jquery/jquery-migrate.min.js--558973c0fd98109493258c8470e94016" id="jquery-migrate-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/jquery/jquery-migrate.min--558973c0fd98109493258c8470e94016.js" id="jquery-migrate-js"></script>
 
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js--ae8336a455f27986417bae17357ddfe5" id="wc-jquery-blockui-js" data-wp-strategy="defer"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min--ae8336a455f27986417bae17357ddfe5.js" id="wc-jquery-blockui-js" data-wp-strategy="defer"></script>
 
 <script id="wc-add-to-cart-js-extra">
 var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://rohrfrisch.at/cart/","is_cart":"","cart_redirect_after_add":"no"};
 //# sourceURL=wc-add-to-cart-js-extra
 </script>
 
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js--f6072e8efe9f918241393bd250d4ee6e" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min--f6072e8efe9f918241393bd250d4ee6e.js" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
 
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js--f50334d846c2444872c00e43bf585a02" id="wc-js-cookie-js" defer data-wp-strategy="defer"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min--f50334d846c2444872c00e43bf585a02.js" id="wc-js-cookie-js" defer data-wp-strategy="defer"></script>
 
 <script id="woocommerce-js-extra">
 var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
 //# sourceURL=woocommerce-js-extra
 </script>
 
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js--f6072e8efe9f918241393bd250d4ee6e" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min--f6072e8efe9f918241393bd250d4ee6e.js" id="woocommerce-js" defer data-wp-strategy="defer"></script>
 
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/underscore.min.js--3ab81072f100c48d16c804d8bb93549c" id="underscore-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/underscore.min--3ab81072f100c48d16c804d8bb93549c.js" id="underscore-js"></script>
 
 <script id="wp-util-js-extra">
 var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
 //# sourceURL=wp-util-js-extra
 </script>
 
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/wp-util.min.js--d4d009f105bbb43ac34bbadde940dd59" id="wp-util-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/wp-util.min--d4d009f105bbb43ac34bbadde940dd59.js" id="wp-util-js"></script>
 
 <link rel="https://api.w.org/" href="https://rohrfrisch.at/wp-json/">
 <link rel="alternate" title="JSON" type="application/json" href="https://rohrfrisch.at/wp-json/wp/v2/pages/3069">
@@ -415,7 +415,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<li class="elementor-icon-list-item elementor-inline-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Schnelle Verfügbarkeit vor Ort</span>
+										<span class="elementor-icon-list-text">Schnelle Verfügbarkeit vor Ort</span>
 									</li>
 						</ul>
 						</div>
@@ -2076,7 +2076,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-4dffdc1 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="4dffdc1" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #ffffff;">Copyright <i class="fal fa-copyright"></i> 2023 <a style="color: #ffffff;" href="https://themeholy.com/wordpress/plumer/">Plumer</a>. All Rights Reserved.</span></p>								</div>
+									<p><span style="color: #ffffff;">Copyright <i class="fal fa-copyright"></i> 2023 <a style="color: #ffffff;" href="https://themeholy.com/wordpress/plumer/">Plumer</a>. All Rights Reserved.</span></p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-357e704 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="357e704" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -2168,29 +2168,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<link rel="stylesheet" id="wc-blocks-style-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css--5210697ff7915448fb894600c42ac5bd" media="all">
+<link rel="stylesheet" id="wc-blocks-style-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks--5210697ff7915448fb894600c42ac5bd.css" media="all">
 
-<link rel="stylesheet" id="elementor-post-1984-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-1984.css--a7123f5c3da3968fafbe0745c31e8d3a" media="all">
+<link rel="stylesheet" id="elementor-post-1984-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-1984--a7123f5c3da3968fafbe0745c31e8d3a.css" media="all">
 
-<link rel="stylesheet" id="widget-nav-menu-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-nav-menu-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="e-sticky-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="e-sticky-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="elementor-post-2384-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-2384.css--69e9f258302b9d08227474271e3e22ad" media="all">
+<link rel="stylesheet" id="elementor-post-2384-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-2384--69e9f258302b9d08227474271e3e22ad.css" media="all">
 
-<link rel="stylesheet" id="elementor-post-1948-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-1948.css--a7123f5c3da3968fafbe0745c31e8d3a" media="all">
+<link rel="stylesheet" id="elementor-post-1948-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-1948--a7123f5c3da3968fafbe0745c31e8d3a.css" media="all">
 
-<link rel="stylesheet" id="elementor-post-1990-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-1990.css--53821d50c7f4f4d30932f2847789b3a6" media="all">
+<link rel="stylesheet" id="elementor-post-1990-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/css/post-1990--53821d50c7f4f4d30932f2847789b3a6.css" media="all">
 
-<link rel="stylesheet" id="widget-divider-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-divider.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-divider-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-divider.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="widget-form-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-form-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/css/widget-form.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="widget-social-icons-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="widget-social-icons-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/widget-social-icons.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="e-apple-webkit-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css--e7a71a4194496ec887cbdf666d98267f" media="all">
+<link rel="stylesheet" id="e-apple-webkit-css" href="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min--e7a71a4194496ec887cbdf666d98267f.css" media="all">
 
-<link rel="stylesheet" id="elementor-gf-local-montserrat-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/montserrat.css--44b569ec7f193f2ae4696b39d6804ae3" media="all">
+<link rel="stylesheet" id="elementor-gf-local-montserrat-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/montserrat--44b569ec7f193f2ae4696b39d6804ae3.css" media="all">
 @endsection
 
 @section('scripts')
@@ -2230,13 +2230,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			document.body.className = c;
 		})();
 	</script>
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/dist/hooks.min.js--af5f3db4ee3505e17c86e523d7757232" id="wp-hooks-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/dist/i18n.min.js--1cde93bb12e7bf74be74d9ea405452e4" id="wp-i18n-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/dist/hooks.min--af5f3db4ee3505e17c86e523d7757232.js" id="wp-hooks-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/dist/i18n.min--1cde93bb12e7bf74be74d9ea405452e4.js" id="wp-i18n-js"></script>
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/contact-form-7/includes/swv/js/index.js--1b463e8dd0f763b3e4aff2131aa1961f" id="swv-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/contact-form-7/includes/swv/js/index--1b463e8dd0f763b3e4aff2131aa1961f.js" id="swv-js"></script>
 <script id="contact-form-7-js-before">
 var wpcf7 = {
     "api": {
@@ -2247,58 +2247,58 @@ var wpcf7 = {
 };
 //# sourceURL=contact-form-7-js-before
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/contact-form-7/includes/js/index.js--1b463e8dd0f763b3e4aff2131aa1961f" id="contact-form-7-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/contact-form-7/includes/js/index--1b463e8dd0f763b3e4aff2131aa1961f.js" id="contact-form-7-js"></script>
 <script id="plumer-ajax-js-extra">
 var plumerajax = {"action_url":"https://rohrfrisch.at/wp-admin/admin-ajax.php","nonce":"992fd97def"};
 //# sourceURL=plumer-ajax-js-extra
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/plumer-core/assets/js/plumer.ajax.js--515256a13fd66d71a2887d1dc1ecc93c" id="plumer-ajax-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/plumer-core/assets/js/plumer.ajax--515256a13fd66d71a2887d1dc1ecc93c.js" id="plumer-ajax-js"></script>
 <script id="wc-add-to-cart-variation-js-extra">
 var wc_add_to_cart_variation_params = {"wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","i18n_reset_alert_text":"Your selection has been reset. Please select some product options before adding this product to your cart."};
 //# sourceURL=wc-add-to-cart-variation-js-extra
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js--f6072e8efe9f918241393bd250d4ee6e" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.min.js--c82e181389007d5df291718b8076bda9" id="slick-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js--c82e181389007d5df291718b8076bda9" id="perfect-scrollbar-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/magnific-popup/jquery.magnific-popup.min.js--c82e181389007d5df291718b8076bda9" id="magnific-popup-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min--f6072e8efe9f918241393bd250d4ee6e.js" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.min--c82e181389007d5df291718b8076bda9.js" id="slick-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min--c82e181389007d5df291718b8076bda9.js" id="perfect-scrollbar-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/libs/magnific-popup/jquery.magnific-popup.min--c82e181389007d5df291718b8076bda9.js" id="magnific-popup-js"></script>
 <script id="woosq-frontend-js-extra">
 var woosq_vars = {"wc_ajax_url":"/?wc-ajax=%%endpoint%%","nonce":"1605a0936a","view":"popup","effect":"mfp-3d-unfold","scrollbar":"yes","auto_close":"yes","hashchange":"no","cart_redirect":"no","cart_url":"https://rohrfrisch.at/cart/","close":"Close (Esc)","next_prev":"yes","next":"Next (Right arrow key)","prev":"Previous (Left arrow key)","thumbnails_effect":"no","related_slick_params":"{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}","thumbnails_slick_params":"{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}","thumbnails_zoom_params":"{\"duration\":120,\"magnify\":1}","quick_view":"0"};
 //# sourceURL=woosq-frontend-js-extra
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js--c82e181389007d5df291718b8076bda9" id="woosq-frontend-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js--f6072e8efe9f918241393bd250d4ee6e" id="sourcebuster-js-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woo-smart-quick-view/assets/js/frontend--c82e181389007d5df291718b8076bda9.js" id="woosq-frontend-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min--f6072e8efe9f918241393bd250d4ee6e.js" id="sourcebuster-js-js"></script>
 <script id="wc-order-attribution-js-extra">
 var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https://rohrfrisch.at/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
 //# sourceURL=wc-order-attribution-js-extra
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js--f6072e8efe9f918241393bd250d4ee6e" id="wc-order-attribution-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js--e7a71a4194496ec887cbdf666d98267f" id="elementor-webpack-runtime-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/js/frontend-modules.min.js--e7a71a4194496ec887cbdf666d98267f" id="elementor-frontend-modules-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/jquery/ui/core.min.js--b37ee7748593354934fd70387522d067" id="jquery-ui-core-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min--f6072e8efe9f918241393bd250d4ee6e.js" id="wc-order-attribution-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/js/webpack.runtime.min--e7a71a4194496ec887cbdf666d98267f.js" id="elementor-webpack-runtime-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/js/frontend-modules.min--e7a71a4194496ec887cbdf666d98267f.js" id="elementor-frontend-modules-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/jquery/ui/core.min--b37ee7748593354934fd70387522d067.js" id="jquery-ui-core-js"></script>
 <script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.34.0","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_interactions":true,"import-export-customization":true,"mega-menu":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/rohrfrisch.at\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/rohrfrisch.at\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/rohrfrisch.at\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"ef448d870a"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":3069,"title":"Rohrverstopfung%20Wien%201170%20%E2%80%93%20RohrFrisch","excerpt":"","featuredImage":false}};
 //# sourceURL=elementor-frontend-js-before
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/js/frontend.min.js--e7a71a4194496ec887cbdf666d98267f" id="elementor-frontend-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/bootstrap.min.js--5b31223e2ef611d00bfe4e71ed403f89" id="bootstrap-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/circle-progress.js--5b31223e2ef611d00bfe4e71ed403f89" id="circle-progress-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/isotope.pkgd.min.js--8a5471f88ca9c58e18cea05ebc9fe21a" id="isotope-pkgd-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/jquery-ui.min.js--8a5471f88ca9c58e18cea05ebc9fe21a" id="ui-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/jquery.counterup.min.js--8a5471f88ca9c58e18cea05ebc9fe21a" id="counterup-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/tilt.jquery.min.js--8a5471f88ca9c58e18cea05ebc9fe21a" id="tilt-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-includes/js/imagesloaded.min.js--bb9380835a1e1ed6a189fce7cbb36d11" id="imagesloaded-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/main.js--8a5471f88ca9c58e18cea05ebc9fe21a" id="plumer-main-script-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js--157612113ce533659b235a200c97c899" id="smartmenus-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js--e7a71a4194496ec887cbdf666d98267f" id="e-sticky-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js--e7a71a4194496ec887cbdf666d98267f" id="elementor-pro-webpack-runtime-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor/assets/js/frontend.min--e7a71a4194496ec887cbdf666d98267f.js" id="elementor-frontend-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/bootstrap.min--5b31223e2ef611d00bfe4e71ed403f89.js" id="bootstrap-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/circle-progress--5b31223e2ef611d00bfe4e71ed403f89.js" id="circle-progress-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/isotope.pkgd.min--8a5471f88ca9c58e18cea05ebc9fe21a.js" id="isotope-pkgd-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/jquery-ui.min--8a5471f88ca9c58e18cea05ebc9fe21a.js" id="ui-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/jquery.counterup.min--8a5471f88ca9c58e18cea05ebc9fe21a.js" id="counterup-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/tilt.jquery.min--8a5471f88ca9c58e18cea05ebc9fe21a.js" id="tilt-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-includes/js/imagesloaded.min--bb9380835a1e1ed6a189fce7cbb36d11.js" id="imagesloaded-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/themes/plumer/assets/js/main--8a5471f88ca9c58e18cea05ebc9fe21a.js" id="plumer-main-script-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min--157612113ce533659b235a200c97c899.js" id="smartmenus-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min--e7a71a4194496ec887cbdf666d98267f.js" id="e-sticky-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min--e7a71a4194496ec887cbdf666d98267f.js" id="elementor-pro-webpack-runtime-js"></script>
 <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/rohrfrisch.at\/wp-admin\/admin-ajax.php","nonce":"5918c8fcf3","urls":{"assets":"https:\/\/rohrfrisch.at\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/rohrfrisch.at\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/rohrfrisch.at\/cart\/","checkout_page_url":"https:\/\/rohrfrisch.at\/checkout\/","fragments_nonce":"ca177c1938"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/rohrfrisch.at\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 //# sourceURL=elementor-pro-frontend-js-before
 </script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/js/frontend.min.js--e7a71a4194496ec887cbdf666d98267f" id="elementor-pro-frontend-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js--e7a71a4194496ec887cbdf666d98267f" id="pro-elements-handlers-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/plumer-core/assets/js/plumer-core.js--515256a13fd66d71a2887d1dc1ecc93c" id="plumer-core-js"></script>
-<script src="/site-clone/rohrfrisch.at/wp-content/plugins/plumer-core/assets/js/plumer-frontend.js--d4d009f105bbb43ac34bbadde940dd59" id="plumer-frontend-script-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/js/frontend.min--e7a71a4194496ec887cbdf666d98267f.js" id="elementor-pro-frontend-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min--e7a71a4194496ec887cbdf666d98267f.js" id="pro-elements-handlers-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/plumer-core/assets/js/plumer-core--515256a13fd66d71a2887d1dc1ecc93c.js" id="plumer-core-js"></script>
+<script src="/site-clone/rohrfrisch.at/wp-content/plugins/plumer-core/assets/js/plumer-frontend--d4d009f105bbb43ac34bbadde940dd59.js" id="plumer-frontend-script-js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://rohrfrisch.at/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
 </script>
