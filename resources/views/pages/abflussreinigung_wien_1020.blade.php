@@ -1919,7 +1919,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-a5dfaef elementor-widget elementor-widget-text-editor" data-id="a5dfaef" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div class="elementor-element elementor-element-a3dceab elementor-widget elementor-widget-text-editor" data-id="a3dceab" data-element_type="widget" data-widget_type="text-editor.default"><div class="elementor-widget-container"><div class="flex max-w-full flex-col flex-grow"><div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="209eb7c6-324c-4443-b369-f47cf53c0efe" data-message-model-slug="gpt-4o"><div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div class="markdown prose w-full break-words dark:prose-invert light"><p><span style="color: #bcbfc9;"><strong>Erhalten Sie wöchentliche Updates von Rohrfrisch.</strong></span></p></div></div></div></div></div></div>								</div>
+									<div class="elementor-element elementor-element-a3dceab elementor-widget elementor-widget-text-editor" data-id="a3dceab" data-element_type="widget" data-widget_type="text-editor.default"><div class="elementor-widget-container"><p><span style="color: #bcbfc9;"><strong>Erhalten Sie w&ouml;chentliche Updates von Rohrfrisch.</strong></span></p></div></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-78137cc elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="78137cc" data-element_type="widget" data-settings='{"button_width":"20","step_next_label":"Next","step_previous_label":"Previous","step_type":"number_text","step_icon_shape":"circle"}' data-widget_type="form.default">
 				<div class="elementor-widget-container">
@@ -1971,7 +1971,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-1f01fce elementor-widget elementor-widget-text-editor" data-id="1f01fce" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #ffffff;">Plumer is an electrician company that specializes in providing high-quality electrical services to both residential and commercial customers.</span></p>								</div>
+									<p><span style="color: #ffffff;">RohrFrisch bietet schnelle Hilfe bei Verstopfungen, Rohrreinigung und akuten Abflussproblemen in Wien.</span></p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-9f9661f elementor-shape-circle e-grid-align-left elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="9f9661f" data-element_type="widget" data-widget_type="social-icons.default">
 				<div class="elementor-widget-container">

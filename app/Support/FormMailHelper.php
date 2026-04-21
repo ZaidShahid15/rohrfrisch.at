@@ -4,7 +4,6 @@ namespace App\Support;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
 
 class FormMailHelper
 {
@@ -29,28 +28,35 @@ class FormMailHelper
             ];
         }
 
-        $name = self::firstMatchingInput($request, '/^text-/');
-        $email = self::firstMatchingInput($request, '/^email-/');
-        $phone = self::firstMatchingInput($request, '/^tel-/');
-        $service = self::firstMatchingInput($request, '/^menu-/');
-        $message = self::firstMatchingInput($request, '/^textarea-/');
+        $contactFields = self::extractContactFields($request);
 
         return [
             'form_kind' => 'contact',
             'source_url' => $sourceUrl,
             'subject' => 'New Website Contact Form Submission',
-            'name' => $name,
-            'email' => $email,
-            'phone' => $phone,
-            'service' => $service,
-            'message' => $message,
+            'name' => $contactFields['name'],
+            'email' => $contactFields['email'],
+            'phone' => $contactFields['phone'],
+            'service' => $contactFields['service'],
+            'message' => $contactFields['message'],
             'fields' => self::filterFields([
-                'Name' => $name,
-                'Email' => $email,
-                'Phone' => $phone,
-                'Service' => $service,
-                'Message' => $message,
+                'Name' => $contactFields['name'],
+                'Email' => $contactFields['email'],
+                'Phone' => $contactFields['phone'],
+                'Service' => $contactFields['service'],
+                'Message' => $contactFields['message'],
             ]),
+        ];
+    }
+
+    public static function extractContactFields(Request $request): array
+    {
+        return [
+            'name' => self::firstMatchingInput($request, '/^text-/'),
+            'email' => self::firstMatchingInput($request, '/^email-/'),
+            'phone' => self::firstMatchingInput($request, '/^tel-/'),
+            'service' => self::firstMatchingInput($request, '/^menu-/'),
+            'message' => self::firstMatchingInput($request, '/^textarea-/'),
         ];
     }
 
@@ -68,14 +74,6 @@ class FormMailHelper
             'form_kind' => ['nullable', 'string'],
             '*' => ['nullable', 'string'],
         ];
-    }
-
-    public static function validateRequiredContactFields(Request $request): void
-    {
-        $name = self::firstMatchingInput($request, '/^text-/');
-        $email = self::firstMatchingInput($request, '/^email-/');
-
-        abort_if(blank($name) || blank($email), 422, 'Name and email are required.');
     }
 
     protected static function firstMatchingInput(Request $request, string $pattern): ?string
