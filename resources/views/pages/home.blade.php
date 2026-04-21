@@ -2240,21 +2240,6 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 
 <link rel="stylesheet" id="elementor-gf-local-montserrat-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/montserrat--44b569ec7f193f2ae4696b39d6804ae3.css" media="all">
 
-<section class="space">
-    <div class="container">
-        <div class="title-area text-center">
-            <span class="sub-title">Neue Bezirksseiten</span>
-            <h2 class="sec-title">Weitere lokalisierte Seiten</h2>
-            <p class="sec-text">Diese neuen Seiten sind jetzt direkt im Projekt verlinkt und erreichbar.</p>
-        </div>
-        <div class="btn-group justify-content-center" style="gap:12px;flex-wrap:wrap;">
-            <a class="themeholy-btn style3" href="/rohreinigung-wien-1110">Rohreinigung Wien 1110</a>
-            <a class="themeholy-btn style3" href="/rohreinigung-wien-1160">Rohreinigung Wien 1160</a>
-            <a class="themeholy-btn style3" href="/rohreinigung-wien-1200">Rohreinigung Wien 1200</a>
-            <a class="themeholy-btn style3" href="/verstopfter-abfluss-wien-1040">Verstopfter Abfluss Wien 1040</a>
-        </div>
-    </div>
-</section>
 @endsection
 
 @section('scripts')

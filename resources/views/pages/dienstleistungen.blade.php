@@ -1,6 +1,6 @@
 @extends('layouts.site')
 
-@section('title', 'Dienstleistungen – RohrFrisch')
+@section('title', 'Dienstleistungen â€“ RohrFrisch')
 
 @section('body_attributes')
 class="wp-singular page-template page-template-elementor_header_footer page page-id-24 wp-custom-logo wp-embed-responsive wp-theme-plumer theme-plumer woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-24"
@@ -18,9 +18,9 @@ class="wp-singular page-template page-template-elementor_header_footer page page
 
 <link rel="dns-prefetch" href="/site-clone/fonts.googleapis.com/asset">
 
-<link rel="alternate" type="application/rss+xml" title="RohrFrisch » Feed" href="https://rohrfrisch.at/feed/">
+<link rel="alternate" type="application/rss+xml" title="RohrFrisch Â» Feed" href="https://rohrfrisch.at/feed/">
 
-<link rel="alternate" type="application/rss+xml" title="RohrFrisch » Comments Feed" href="https://rohrfrisch.at/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="RohrFrisch Â» Comments Feed" href="https://rohrfrisch.at/comments/feed/">
 
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://rohrfrisch.at/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frohrfrisch.at%2Fdienstleistungen%2F">
 
@@ -251,7 +251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<ul id="menu-1-b449fd8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2119"><a href="/" class="elementor-item">Startseite</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-24 current_page_item menu-item-2123"><a href="/dienstleistungen/" aria-current="page" class="elementor-item elementor-item-active">Dienstleistungen</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="/preise/" class="elementor-item">Preise</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/uber-uns/" class="elementor-item">Über uns</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/uber-uns/" class="elementor-item">Ãœber uns</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="/kontakt/" class="elementor-item">Kontakt</a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -260,7 +260,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<ul id="menu-2-b449fd8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2119"><a href="/" class="elementor-item" tabindex="-1">Startseite</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-24 current_page_item menu-item-2123"><a href="/dienstleistungen/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Dienstleistungen</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="/preise/" class="elementor-item" tabindex="-1">Preise</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/uber-uns/" class="elementor-item" tabindex="-1">Über uns</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/uber-uns/" class="elementor-item" tabindex="-1">Ãœber uns</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="/kontakt/" class="elementor-item" tabindex="-1">Kontakt</a></li>
 </ul>			</nav>
 						</div>
@@ -386,17 +386,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<li class="elementor-icon-list-item elementor-inline-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Bar- &amp; Kartenzahlung möglich</span>
+										<span class="elementor-icon-list-text">Bar- &amp; Kartenzahlung mÃ¶glich</span>
 									</li>
 								<li class="elementor-icon-list-item elementor-inline-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Sanfte und gründliche Reinigung</span>
+										<span class="elementor-icon-list-text">Sanfte und grÃ¼ndliche Reinigung</span>
 									</li>
 								<li class="elementor-icon-list-item elementor-inline-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Schnelle Verfügbarkeit vor Ort</span>
+										<span class="elementor-icon-list-text">Schnelle VerfÃ¼gbarkeit vor Ort</span>
 									</li>
 						</ul>
 						</div>
@@ -428,7 +428,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-0769f7b elementor-widget elementor-widget-text-editor" data-id="0769f7b" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Willkommen bei <a href="/">Rohrfrisch</a> – Ihrem Experten für professionelle Sanitärdienstleistungen. Wir bieten eine breite Palette an Lösungen, um Ihre Abfluss- und Rohrprobleme effizient und nachhaltig zu lösen.</p><h3> </h3>								</div>
+									<p>Willkommen bei <a href="/">Rohrfrisch</a> â€“ Ihrem Experten fÃ¼r professionelle SanitÃ¤rdienstleistungen. Wir bieten eine breite Palette an LÃ¶sungen, um Ihre Abfluss- und Rohrprobleme effizient und nachhaltig zu lÃ¶sen.</p><h3> </h3>								</div>
 				</div>
 					</div>
 				</div>
@@ -439,7 +439,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-0004558 e-con-full e-flex e-con e-child" data-id="0004558" data-element_type="container">
 				<div class="elementor-element elementor-element-22e64ba elementor-widget elementor-widget-plumersectiontitle" data-id="22e64ba" data-element_type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">Abflussreinigung</h2></div><p class="desc-selector mt-n2 mb-30">Verstopfte Abflüsse sind ein häufiges Problem, das zu unangenehmen Gerüchen und Überläufen führen kann. Unsere Experten reinigen Abflüsse gründlich und stellen sicher, dass das Wasser wieder frei fließt.
+					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">Abflussreinigung</h2></div><p class="desc-selector mt-n2 mb-30">Verstopfte AbflÃ¼sse sind ein hÃ¤ufiges Problem, das zu unangenehmen GerÃ¼chen und ÃœberlÃ¤ufen fÃ¼hren kann. Unsere Experten reinigen AbflÃ¼sse grÃ¼ndlich und stellen sicher, dass das Wasser wieder frei flieÃŸt.
 
 </p></div>				</div>
 				</div>
@@ -475,7 +475,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-ff5986f elementor-widget elementor-widget-plumergroupimage" data-id="ff5986f" data-element_type="widget" data-widget_type="plumergroupimage.default">
 				<div class="elementor-widget-container">
-					<div class="img-box4"><div class="img1"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/09/Abflussreinigung.webp" alt="Installateur unter Küchenspüle"></div><div class="year-counter"></div></div>				</div>
+					<div class="img-box4"><div class="img1"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/09/Abflussreinigung.webp" alt="Installateur unter KÃ¼chenspÃ¼le"></div><div class="year-counter"></div></div>				</div>
 				</div>
 					</div>
 		</div>
@@ -483,7 +483,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-70e52bb elementor-widget elementor-widget-plumersectiontitle" data-id="70e52bb" data-element_type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">Rohreinigung High Priority</h2></div><p class="desc-selector mt-n2 mb-30">Wenn es eilig ist, sind wir zur Stelle! Unser High-Priority-Service garantiert eine schnelle und effektive Reinigung von Rohren, um Schäden und Ausfallzeiten zu minimieren.</p></div>				</div>
+					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">Rohreinigung High Priority</h2></div><p class="desc-selector mt-n2 mb-30">Wenn es eilig ist, sind wir zur Stelle! Unser High-Priority-Service garantiert eine schnelle und effektive Reinigung von Rohren, um SchÃ¤den und Ausfallzeiten zu minimieren.</p></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-3529682 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-plumerchecklist" data-id="3529682" data-element_type="widget" data-widget_type="plumerchecklist.default">
 				<div class="elementor-widget-container">
@@ -515,7 +515,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-2f22611 e-con-full e-flex e-con e-child" data-id="2f22611" data-element_type="container">
 				<div class="elementor-element elementor-element-6c9ce20 elementor-widget elementor-widget-plumersectiontitle" data-id="6c9ce20" data-element_type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">Rohrverstopfung</h2></div><p class="desc-selector mt-n2 mb-30">Ob in der Küche, im Bad oder im Keller – Rohrverstopfungen können den Alltag erheblich beeinträchtigen. Wir beseitigen diese zuverlässig und verhindern zukünftige Verstopfungen durch präventive Maßnahmen.</p></div>				</div>
+					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">Rohrverstopfung</h2></div><p class="desc-selector mt-n2 mb-30">Ob in der KÃ¼che, im Bad oder im Keller â€“ Rohrverstopfungen kÃ¶nnen den Alltag erheblich beeintrÃ¤chtigen. Wir beseitigen diese zuverlÃ¤ssig und verhindern zukÃ¼nftige Verstopfungen durch prÃ¤ventive MaÃŸnahmen.</p></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-d8a9e57 elementor-widget elementor-widget-button" data-id="d8a9e57" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
@@ -549,7 +549,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-1974b0c elementor-widget elementor-widget-plumersectiontitle" data-id="1974b0c" data-element_type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><span class="sub-title subtitle-selector">Häufig Gestellte Fragen</span><h2 class="sec-title title-selector">Professionelle Abfluss- und Rohrreinigung für Privat- und Gewerbekunden</h2></div><p class="desc-selector mt-n2 mb-30">Wir verstehen, dass Probleme mit Abflüssen und Rohren stressig und störend sein können, weshalb wir schnelle und effiziente Lösungen bieten, um Ihre Unannehmlichkeiten zu minimieren. Bei RohrFrisch setzen wir auf klare Kommunikation und Transparenz, damit Sie immer wissen, was passiert und wie wir das Problem beheben. Vertrauen Sie auf unsere Expertise für eine zuverlässige und fachgerechte Lösung.</p></div>				</div>
+					<div class="title-area-wrap"><div class="title-area mb-30"><span class="sub-title subtitle-selector">HÃ¤ufig Gestellte Fragen</span><h2 class="sec-title title-selector">Professionelle Abfluss- und Rohrreinigung fÃ¼r Privat- und Gewerbekunden</h2></div><p class="desc-selector mt-n2 mb-30">Wir verstehen, dass Probleme mit AbflÃ¼ssen und Rohren stressig und stÃ¶rend sein kÃ¶nnen, weshalb wir schnelle und effiziente LÃ¶sungen bieten, um Ihre Unannehmlichkeiten zu minimieren. Bei RohrFrisch setzen wir auf klare Kommunikation und Transparenz, damit Sie immer wissen, was passiert und wie wir das Problem beheben. Vertrauen Sie auf unsere Expertise fÃ¼r eine zuverlÃ¤ssige und fachgerechte LÃ¶sung.</p></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-d8f2bf1 elementor-widget elementor-widget-button" data-id="d8f2bf1" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
@@ -571,7 +571,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<div class="e-n-accordion" aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys">
 						<details id="e-n-accordion-item-2250" class="e-n-accordion-item" open>
 				<summary class="e-n-accordion-item-title" data-accordion-index="1" tabindex="0" aria-expanded="true" aria-controls="e-n-accordion-item-2250">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> 1. Wie schnell kann ich mit einer Lösung für meine Rohr- oder Abflussprobleme rechnen? </div></span>
+					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> 1. Wie schnell kann ich mit einer LÃ¶sung fÃ¼r meine Rohr- oder Abflussprobleme rechnen? </div></span>
 							<span class="e-n-accordion-item-title-icon">
 			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-up" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg></span>
 			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-down" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"></path></svg></span>
@@ -583,7 +583,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div role="region" aria-labelledby="e-n-accordion-item-2250" class="elementor-element elementor-element-22ead3c e-con-full e-flex e-con e-child" data-id="22ead3c" data-element_type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-0d6e8a7 elementor-widget elementor-widget-text-editor" data-id="0d6e8a7" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Unsere Experten sind rund um die Uhr verfügbar und reagieren schnell auf Notfälle. In der Regel sind wir innerhalb weniger Stunden vor Ort, um das Problem zu beheben.</p>								</div>
+									<p>Unsere Experten sind rund um die Uhr verfÃ¼gbar und reagieren schnell auf NotfÃ¤lle. In der Regel sind wir innerhalb weniger Stunden vor Ort, um das Problem zu beheben.</p>								</div>
 				</div>
 				</div>
 					</div>
@@ -620,14 +620,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div role="region" aria-labelledby="e-n-accordion-item-2252" class="elementor-element elementor-element-9ac06ec e-con-full e-flex e-con e-child" data-id="9ac06ec" data-element_type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-5bcaa70 elementor-widget elementor-widget-text-editor" data-id="5bcaa70" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><b>Antwort</b><span style="font-weight: 400;">: Häufige </span><b>Verstopfungen</b><span style="font-weight: 400;"> entstehen durch Ablagerungen von </span><b>Fett</b><span style="font-weight: 400;">, </span><b>Haare</b><span style="font-weight: 400;">, </span><b>Essensreste</b><span style="font-weight: 400;"> oder auch </span><b>Wurzeln</b><span style="font-weight: 400;"> in den Rohrleitungen. Diese Ablagerungen blockieren den Wasserfluss und können im schlimmsten Fall zu einer </span><b>Abflussverstopfung</b><span style="font-weight: 400;"> führen. Regelmäßige </span><b>Rohrreinigung</b><span style="font-weight: 400;"> hilft, solche Probleme frühzeitig zu erkennen und zu beheben.</span></p>								</div>
+									<p><b>Antwort</b><span style="font-weight: 400;">: HÃ¤ufige </span><b>Verstopfungen</b><span style="font-weight: 400;"> entstehen durch Ablagerungen von </span><b>Fett</b><span style="font-weight: 400;">, </span><b>Haare</b><span style="font-weight: 400;">, </span><b>Essensreste</b><span style="font-weight: 400;"> oder auch </span><b>Wurzeln</b><span style="font-weight: 400;"> in den Rohrleitungen. Diese Ablagerungen blockieren den Wasserfluss und kÃ¶nnen im schlimmsten Fall zu einer </span><b>Abflussverstopfung</b><span style="font-weight: 400;"> fÃ¼hren. RegelmÃ¤ÃŸige </span><b>Rohrreinigung</b><span style="font-weight: 400;"> hilft, solche Probleme frÃ¼hzeitig zu erkennen und zu beheben.</span></p>								</div>
 				</div>
 				</div>
 				</div>
 					</details>
 						<details id="e-n-accordion-item-2253" class="e-n-accordion-item">
 				<summary class="e-n-accordion-item-title" data-accordion-index="4" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2253">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> 4. Sind die verwendeten Reinigungsmethoden sicher für meine Rohre? </div></span>
+					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> 4. Sind die verwendeten Reinigungsmethoden sicher fÃ¼r meine Rohre? </div></span>
 							<span class="e-n-accordion-item-title-icon">
 			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-up" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg></span>
 			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-down" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"></path></svg></span>
@@ -638,7 +638,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div role="region" aria-labelledby="e-n-accordion-item-2253" class="elementor-element elementor-element-0e6a966 e-con-full e-flex e-con e-child" data-id="0e6a966" data-element_type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-8b2d7bc elementor-widget elementor-widget-text-editor" data-id="8b2d7bc" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Ja, wir setzen auf moderne, schonende Reinigungsmethoden, die sowohl Ihre Rohrleitungen schützen als auch eine gründliche Reinigung gewährleisten.</p>								</div>
+									<p>Ja, wir setzen auf moderne, schonende Reinigungsmethoden, die sowohl Ihre Rohrleitungen schÃ¼tzen als auch eine grÃ¼ndliche Reinigung gewÃ¤hrleisten.</p>								</div>
 				</div>
 				</div>
 				</div>
@@ -678,7 +678,7 @@ Was sagen unsere Kunden?</h3></div></div>				</div>
 						<div class="elementor-element elementor-element-9b39499 elementor-widget elementor-widget-plumertestimonialslider" data-id="9b39499" data-element_type="widget" data-widget_type="plumertestimonialslider.default">
 				<div class="elementor-widget-container">
 					<!-----------------------Start Testimonials Area-----------------------><div class="row themeholy-carousel arrow-wrap" data-slide-show="2" data-lg-slide-show="1" data-md-slide-show="1" data-arrows="true"><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_1.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Matthias Richter</h3><span class="testi-card_desig">
-</span><p class="testi-card_text">"Der Service von Rohrfrisch.at war absolut hervorragend! Die Techniker kamen pünktlich, waren freundlich und haben das Problem schnell und professionell behoben. Ich war beeindruckt von ihrer Effizienz und Gründlichkeit. Sehr empfehlenswert für alle, die einen zuverlässigen Installateur suchen!"</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_2.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Johannes Keller</h3><p class="testi-card_text">"Ich hatte einen Notfall mit einem verstopften Abfluss, und Rohrfrisch.at hat mir sofort geholfen. Der Kundenservice war super freundlich und die Arbeit wurde sauber und schnell erledigt. Top Preis-Leistungs-Verhältnis! Ich werde definitiv wieder auf sie zurückkommen."</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_3.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Miriam Schuster</h3><p class="testi-card_text">"Rohrfrisch.at hat mich wirklich beeindruckt. Die Techniker waren äußerst professionell und haben bei der Installation meiner neuen Sanitäranlagen großartige Arbeit geleistet. Alles wurde perfekt erklärt und sauber hinterlassen. Ein 1A-Service, den ich gerne weiterempfehle!"</p></div></div></div></div><!-----------------------End Testimonials Area----------------------->				</div>
+</span><p class="testi-card_text">"Der Service von Rohrfrisch.at war absolut hervorragend! Die Techniker kamen pÃ¼nktlich, waren freundlich und haben das Problem schnell und professionell behoben. Ich war beeindruckt von ihrer Effizienz und GrÃ¼ndlichkeit. Sehr empfehlenswert fÃ¼r alle, die einen zuverlÃ¤ssigen Installateur suchen!"</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_2.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Johannes Keller</h3><p class="testi-card_text">"Ich hatte einen Notfall mit einem verstopften Abfluss, und Rohrfrisch.at hat mir sofort geholfen. Der Kundenservice war super freundlich und die Arbeit wurde sauber und schnell erledigt. Top Preis-Leistungs-VerhÃ¤ltnis! Ich werde definitiv wieder auf sie zurÃ¼ckkommen."</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_3.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Miriam Schuster</h3><p class="testi-card_text">"Rohrfrisch.at hat mich wirklich beeindruckt. Die Techniker waren Ã¤uÃŸerst professionell und haben bei der Installation meiner neuen SanitÃ¤ranlagen groÃŸartige Arbeit geleistet. Alles wurde perfekt erklÃ¤rt und sauber hinterlassen. Ein 1A-Service, den ich gerne weiterempfehle!"</p></div></div></div></div><!-----------------------End Testimonials Area----------------------->				</div>
 				</div>
 					</div>
 		</div>
@@ -1644,7 +1644,7 @@ Was sagen unsere Kunden?</h3></div></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-72a0f54 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="72a0f54" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #bcbfc9;"><strong>Experten für Rohrreinigung – zuverlässig, effizient und kundenorientiert.</strong></span></p>								</div>
+									<p><span style="color: #bcbfc9;"><strong>Experten fÃ¼r Rohrreinigung â€“ zuverlÃ¤ssig, effizient und kundenorientiert.</strong></span></p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-336e92a e-con-full e-flex e-con e-child" data-id="336e92a" data-element_type="container">
@@ -1718,7 +1718,7 @@ Was sagen unsere Kunden?</h3></div></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-a5dfaef elementor-widget elementor-widget-text-editor" data-id="a5dfaef" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div class="elementor-element elementor-element-a3dceab elementor-widget elementor-widget-text-editor" data-id="a3dceab" data-element_type="widget" data-widget_type="text-editor.default"><div class="elementor-widget-container"><div class="flex max-w-full flex-col flex-grow"><div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="209eb7c6-324c-4443-b369-f47cf53c0efe" data-message-model-slug="gpt-4o"><div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div class="markdown prose w-full break-words dark:prose-invert light"><p><span style="color: #bcbfc9;"><strong>Erhalten Sie wöchentliche Updates von Rohrfrisch.</strong></span></p></div></div></div></div></div></div>								</div>
+									<div class="elementor-element elementor-element-a3dceab elementor-widget elementor-widget-text-editor" data-id="a3dceab" data-element_type="widget" data-widget_type="text-editor.default"><div class="elementor-widget-container"><div class="flex max-w-full flex-col flex-grow"><div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="209eb7c6-324c-4443-b369-f47cf53c0efe" data-message-model-slug="gpt-4o"><div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div class="markdown prose w-full break-words dark:prose-invert light"><p><span style="color: #bcbfc9;"><strong>Erhalten Sie wÃ¶chentliche Updates von Rohrfrisch.</strong></span></p></div></div></div></div></div></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-78137cc elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="78137cc" data-element_type="widget" data-settings='{"button_width":"20","step_next_label":"Next","step_previous_label":"Previous","step_type":"number_text","step_icon_shape":"circle"}' data-widget_type="form.default">
 				<div class="elementor-widget-container">
@@ -1757,7 +1757,7 @@ Was sagen unsere Kunden?</h3></div></div>				</div>
 		<div class="elementor-element elementor-element-e84c596 e-con-full e-flex e-con e-child" data-id="e84c596" data-element_type="container">
 				<div class="elementor-element elementor-element-7dbc6dc elementor-widget elementor-widget-text-editor" data-id="7dbc6dc" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #ffffff;">Copyright ©2025 Rohrfrisch. All Rights Reserved</span></p>								</div>
+									<p><span style="color: #ffffff;">Copyright Â©2025 Rohrfrisch. All Rights Reserved</span></p>								</div>
 				</div>
 				</div>
 				</div>
@@ -1981,21 +1981,6 @@ Was sagen unsere Kunden?</h3></div></div>				</div>
 
 <link rel="stylesheet" id="elementor-gf-local-montserrat-css" href="/site-clone/rohrfrisch.at/wp-content/uploads/elementor/google-fonts/css/montserrat--44b569ec7f193f2ae4696b39d6804ae3.css" media="all">
 
-<section class="space">
-    <div class="container">
-        <div class="title-area text-center">
-            <span class="sub-title">Zusätzliche Seiten</span>
-            <h2 class="sec-title">Neue Service-Links</h2>
-            <p class="sec-text">Die frisch angelegten Rohreinigungs- und Abflussseiten sind jetzt auch von der Leistungsseite aus erreichbar.</p>
-        </div>
-        <div class="btn-group justify-content-center" style="gap:12px;flex-wrap:wrap;">
-            <a class="themeholy-btn style3" href="/rohreinigung-wien-1110">Rohreinigung Wien 1110</a>
-            <a class="themeholy-btn style3" href="/rohreinigung-wien-1160">Rohreinigung Wien 1160</a>
-            <a class="themeholy-btn style3" href="/rohreinigung-wien-1200">Rohreinigung Wien 1200</a>
-            <a class="themeholy-btn style3" href="/verstopfter-abfluss-wien-1040">Verstopfter Abfluss Wien 1040</a>
-        </div>
-    </div>
-</section>
 @endsection
 
 @section('scripts')

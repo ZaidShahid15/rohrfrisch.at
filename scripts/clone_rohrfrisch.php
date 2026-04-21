@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 $projectRoot = dirname(__DIR__);
-$cloneRoot = $projectRoot . DIRECTORY_SEPARATOR . '.clone-source';
-$pagesDir = $cloneRoot . DIRECTORY_SEPARATOR . 'pages';
 $publicAssetRoot = $projectRoot . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'site-clone';
 $viewRoot = $projectRoot . DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR . 'views';
 $pageViewRoot = $viewRoot . DIRECTORY_SEPARATOR . 'pages';
@@ -48,8 +46,6 @@ if ($singlePagePaths !== []) {
     $seedPaths = $singlePagePaths;
 }
 
-ensureDir($cloneRoot);
-ensureDir($pagesDir);
 ensureDir($publicAssetRoot);
 ensureDir($pageViewRoot);
 ensureDir($layoutRoot);
@@ -75,8 +71,6 @@ while ($queue !== []) {
         fwrite(STDERR, "Skipping {$pageUrl} (HTTP {$response['status']})" . PHP_EOL);
         continue;
     }
-
-    file_put_contents(pageCachePath($pagesDir, $normalizedPath), $response['body']);
 
     $pageData = transformPageHtml($response['body'], $baseUrl, $publicAssetRoot, $assets, $queue, $skipPrefixes, $crawlInternalLinks);
     $viewName = viewNameForPath($normalizedPath);
@@ -180,14 +174,6 @@ function fetchUrl(string $url, string $userAgent): array
         'status' => $status,
         'body' => is_string($body) ? $body : '',
     ];
-}
-
-function pageCachePath(string $pagesDir, string $path): string
-{
-    $slug = trim($path, '/');
-    $slug = $slug === '' ? 'home' : str_replace('/', '__', $slug);
-
-    return $pagesDir . DIRECTORY_SEPARATOR . $slug . '.html';
 }
 
 function transformPageHtml(
