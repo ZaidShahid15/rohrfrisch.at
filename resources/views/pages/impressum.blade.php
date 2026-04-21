@@ -247,7 +247,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<ul id="menu-1-b449fd8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2119"><a href="/" class="elementor-item">Startseite</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123"><a href="/dienstleistungen/" class="elementor-item">Dienstleistungen</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="/preise/" class="elementor-item">Preise</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/" class="elementor-item">Über uns</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/uber-uns/" class="elementor-item">Über uns</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="/kontakt/" class="elementor-item">Kontakt</a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -256,7 +256,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<ul id="menu-2-b449fd8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2119"><a href="/" class="elementor-item" tabindex="-1">Startseite</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123"><a href="/dienstleistungen/" class="elementor-item" tabindex="-1">Dienstleistungen</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="/preise/" class="elementor-item" tabindex="-1">Preise</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/" class="elementor-item" tabindex="-1">Über uns</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/uber-uns/" class="elementor-item" tabindex="-1">Über uns</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="/kontakt/" class="elementor-item" tabindex="-1">Kontakt</a></li>
 </ul>			</nav>
 						</div>

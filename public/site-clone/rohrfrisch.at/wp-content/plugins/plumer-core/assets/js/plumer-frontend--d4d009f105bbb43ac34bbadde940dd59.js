@@ -46,10 +46,10 @@
                 swipeToSlide: (d('swipetoslide') ? true : false),
                 prevArrow: d("prev-arrow")
                     ? prevButton
-                    : '<button type="button" class="slick-prev"><i class="far fa-arrow-left"></i></button>',
+                    : '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
                 nextArrow: d("next-arrow")
                     ? nextButton
-                    : '<button type="button" class="slick-next"><i class="far fa-arrow-right"></i></button>',
+                    : '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
                 rtl: $("html").attr("dir") == "rtl" ? true : false,
                 responsive: [
                     {

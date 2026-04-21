@@ -11,6 +11,7 @@ $pageViewRoot = $viewRoot . DIRECTORY_SEPARATOR . 'pages';
 $layoutRoot = $viewRoot . DIRECTORY_SEPARATOR . 'layouts';
 $baseUrl = 'https://rohrfrisch.at';
 $userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36';
+$cliOptions = parseCliOptions($argv ?? []);
 
 $skipPrefixes = [
     '/ru/',
@@ -37,6 +38,14 @@ foreach (range(1010, 1230, 10) as $district) {
     $seedPaths[] = "/abflussreinigung-wien-{$district}/";
     $seedPaths[] = "/rohrverstopfung-wien-{$district}/";
     $seedPaths[] = "/rohrverstopfung-notdienst-wien-{$district}/";
+}
+
+$singlePagePaths = $cliOptions['paths'];
+$crawlInternalLinks = $singlePagePaths === [];
+$writeSharedFiles = $singlePagePaths === [];
+
+if ($singlePagePaths !== []) {
+    $seedPaths = $singlePagePaths;
 }
 
 ensureDir($cloneRoot);
@@ -69,7 +78,7 @@ while ($queue !== []) {
 
     file_put_contents(pageCachePath($pagesDir, $normalizedPath), $response['body']);
 
-    $pageData = transformPageHtml($response['body'], $baseUrl, $publicAssetRoot, $assets, $queue, $skipPrefixes);
+    $pageData = transformPageHtml($response['body'], $baseUrl, $publicAssetRoot, $assets, $queue, $skipPrefixes, $crawlInternalLinks);
     $viewName = viewNameForPath($normalizedPath);
 
     $pages[] = [
@@ -86,9 +95,13 @@ while ($queue !== []) {
 }
 
 downloadAssets($assets, $publicAssetRoot, $userAgent);
-writeLayout($layoutRoot . DIRECTORY_SEPARATOR . 'site.blade.php');
+if ($writeSharedFiles) {
+    writeLayout($layoutRoot . DIRECTORY_SEPARATOR . 'site.blade.php');
+}
 writePageViews($pages, $pageViewRoot);
-writeConfig($projectRoot . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'site_clone.php', $pages);
+if ($writeSharedFiles) {
+    writeConfig($projectRoot . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'site_clone.php', $pages);
+}
 
 echo 'Generated ' . count($pages) . ' Blade pages and ' . count($assets) . ' asset references.' . PHP_EOL;
 
@@ -97,6 +110,25 @@ function ensureDir(string $path): void
     if (! is_dir($path)) {
         mkdir($path, 0777, true);
     }
+}
+
+function parseCliOptions(array $argv): array
+{
+    $paths = [];
+
+    foreach (array_slice($argv, 1) as $argument) {
+        if (str_starts_with($argument, '--path=')) {
+            $value = substr($argument, 7);
+
+            if ($value !== '') {
+                $paths[] = $value;
+            }
+        }
+    }
+
+    return [
+        'paths' => array_values(array_unique($paths)),
+    ];
 }
 
 function shouldSkipPath(string $path, array $skipPrefixes): bool
@@ -164,7 +196,8 @@ function transformPageHtml(
     string $publicAssetRoot,
     array &$assets,
     array &$queue,
-    array $skipPrefixes
+    array $skipPrefixes,
+    bool $crawlInternalLinks = true
 ): array {
     libxml_use_internal_errors(true);
 
@@ -176,11 +209,11 @@ function transformPageHtml(
     $title = $titleNode?->textContent ? trim($titleNode->textContent) : 'RohrFrisch';
 
     foreach ($xpath->query('//*[@href]') as $node) {
-        rewriteUrlAttribute($node, 'href', $baseUrl, $publicAssetRoot, $assets, $queue, $skipPrefixes);
+        rewriteUrlAttribute($node, 'href', $baseUrl, $publicAssetRoot, $assets, $queue, $skipPrefixes, $crawlInternalLinks);
     }
 
     foreach ($xpath->query('//*[@src]') as $node) {
-        rewriteUrlAttribute($node, 'src', $baseUrl, $publicAssetRoot, $assets, $queue, $skipPrefixes);
+        rewriteUrlAttribute($node, 'src', $baseUrl, $publicAssetRoot, $assets, $queue, $skipPrefixes, $crawlInternalLinks);
     }
 
     foreach ($xpath->query('//*[@srcset]') as $node) {
@@ -247,7 +280,8 @@ function rewriteUrlAttribute(
     string $publicAssetRoot,
     array &$assets,
     array &$queue,
-    array $skipPrefixes
+    array $skipPrefixes,
+    bool $crawlInternalLinks = true
 ): void {
     $value = trim($node->getAttribute($attribute));
 
@@ -276,10 +310,11 @@ function rewriteUrlAttribute(
             return;
         }
 
-        if (! shouldSkipPath($path, $skipPrefixes)) {
+        if ($crawlInternalLinks && ! shouldSkipPath($path, $skipPrefixes)) {
             $queue[] = $path;
-            $node->setAttribute($attribute, $path === '/' ? '/' : $path);
         }
+
+        $node->setAttribute($attribute, $path === '/' ? '/' : $path);
 
         return;
     }
