@@ -428,9 +428,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="elementor-element elementor-element-7a2e951 elementor-widget elementor-widget-plumercontactform" data-id="7a2e951" data-element_type="widget" data-widget_type="plumercontactform.default">
 				<div class="elementor-widget-container">
 					<!-----------------------Start Contact Form-----------------------><div class="bg-smoke bg-bottom-right" data-bg-src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/plumber-repair-experienced-attentive-middleaged-man-examining-bottom-kitchen-sink.jpg"><div class="row"><div class="col-xl-8 offset-xl-4"><div class="quote-form-box bg-transparent"><h4 class="form-title text-center">Erhalten <span class="text-theme">Sie ein</span> Angebot</h4>
-<div class="wpcf7 no-js" id="wpcf7-f1174-p42-o1" lang="en-US" dir="ltr" data-wpcf7-id="1174">
+<div class="contact-form-native" id="wpcf7-f1174-p42-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="{{ route('forms.submit') }}" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form action="{{ route('forms.submit') }}" method="post" class="contact-form-native-form" aria-label="Contact form">
 @csrf
 <input type="hidden" name="form_kind" value="contact">
 <input type="hidden" name="source_url" value="{{ url()->current() }}">

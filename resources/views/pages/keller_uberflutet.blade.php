@@ -962,9 +962,9 @@ bei Wasserschäden
 						<div class="elementor-element elementor-element-c05f34e elementor-widget elementor-widget-plumercontactform" data-id="c05f34e" data-element_type="widget" data-e-type="widget" id="contact" data-widget_type="plumercontactform.default">
 				<div class="elementor-widget-container">
 					<!-----------------------Start Contact Form-----------------------><div class="quote-form-box"><h4 class="form-title text-center">Holen Sie sich ein <span class="text-theme"> kostenloses</span> Angebot</h4><div class="contact-form">
-<div class="wpcf7 no-js" id="wpcf7-f684-p5381-o1" lang="en-US" dir="ltr" data-wpcf7-id="684">
+<div class="contact-form-native" id="wpcf7-f684-p5381-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="{{ route('forms.submit') }}" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form action="{{ route('forms.submit') }}" method="post" class="contact-form-native-form" aria-label="Contact form">
 @csrf
 <input type="hidden" name="form_kind" value="contact">
 <input type="hidden" name="source_url" value="{{ url()->current() }}">
