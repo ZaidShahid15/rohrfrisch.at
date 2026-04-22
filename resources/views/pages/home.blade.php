@@ -252,6 +252,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-e2541f8 e-flex e-con-boxed e-con e-parent" data-id="e2541f8" data-element_type="container" data-settings='{"background_background":"classic","sticky":"top","sticky_on":["desktop","tablet","mobile"],"sticky_offset":0,"sticky_effects_offset":0,"sticky_anchor_link_offset":0}'>
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-eef7b73 e-con-full e-flex e-con e-child" data-id="eef7b73" data-element_type="container">
+				<div class="elementor-element elementor-element-922c3fb elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="922c3fb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
+															</div>
+				</div>
 				</div>
 		<div class="elementor-element elementor-element-c08b835 e-con-full e-flex e-con e-child" data-id="c08b835" data-element_type="container">
 				<div class="elementor-element elementor-element-b449fd8 elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-widget-mobile__width-initial elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="b449fd8" data-element_type="widget" data-settings='{"full_width":"stretch","layout":"horizontal","submenu_icon":{"value":"&lt;svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-caret-down\" viewBox=\"0 0 320 512\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"&gt;&lt;path d=\"M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\"&gt;&lt;\/path&gt;&lt;\/svg&gt;","library":"fa-solid"},"toggle":"burger"}' data-widget_type="nav-menu.default">
