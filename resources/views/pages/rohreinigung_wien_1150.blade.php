@@ -246,7 +246,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-922c3fb elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="922c3fb" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/">
-							<img width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
+							<img decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
 															</div>
 				</div>
 				</div>
@@ -464,7 +464,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-27c9356b e-con-full e-flex e-con e-child" data-id="27c9356b" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-7481e0e5 elementor-widget elementor-widget-image" data-id="7481e0e5" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1344" height="768" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien.jpg" class="attachment-full size-full wp-image-3719" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien.jpg 1344w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-300x171.jpg 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-1024x585.jpg 1024w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-768x439.jpg 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-600x343.jpg 600w" sizes="(max-width: 1344px) 100vw, 1344px">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="1344" height="768" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien.jpg" class="attachment-full size-full wp-image-3719" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien.jpg 1344w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-300x171.jpg 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-1024x585.jpg 1024w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-768x439.jpg 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/Rohrreinigung-1150-Wien-600x343.jpg 600w" sizes="(max-width: 1344px) 100vw, 1344px">															</div>
 				</div>
 				</div>
 					</div>
@@ -506,7 +506,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-d2decca e-con-full e-flex e-con e-child" data-id="d2decca" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-4d0cb6e elementor-widget elementor-widget-image" data-id="4d0cb6e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="751" height="502" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-1024x684.jpg" class="attachment-large size-large wp-image-3718" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-1024x684.jpg 1024w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-300x200.jpg 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-768x513.jpg 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-327x220.jpg 327w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-600x401.jpg 600w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy.jpg 1300w" sizes="(max-width: 751px) 100vw, 751px">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="751" height="502" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-1024x684.jpg" class="attachment-large size-large wp-image-3718" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-1024x684.jpg 1024w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-300x200.jpg 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-768x513.jpg 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-327x220.jpg 327w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy-600x401.jpg 600w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohr-031_large_XdlSziHrdy.jpg 1300w" sizes="(max-width: 751px) 100vw, 751px">															</div>
 				</div>
 				</div>
 				</div>
@@ -520,7 +520,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-a571b27 e-con-full e-flex e-con e-child" data-id="a571b27" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-8841267 elementor-widget elementor-widget-image" data-id="8841267" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1000" height="500" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien.jpg" class="attachment-full size-full wp-image-3717" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien.jpg 1000w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien-300x150.jpg 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien-768x384.jpg 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien-600x300.jpg 600w" sizes="(max-width: 1000px) 100vw, 1000px">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="1000" height="500" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien.jpg" class="attachment-full size-full wp-image-3717" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien.jpg 1000w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien-300x150.jpg 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien-768x384.jpg 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/02/rohrreinigung-wien-600x300.jpg 600w" sizes="(max-width: 1000px) 100vw, 1000px">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-fa03e64 e-con-full e-flex e-con e-child" data-id="fa03e64" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
@@ -1767,7 +1767,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-8eef239 e-con-full e-flex e-con e-child" data-id="8eef239" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-cbe4954 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="cbe4954" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px.png" class="attachment-large size-large wp-image-2495" alt="RohrFrisch">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px.png" class="attachment-large size-large wp-image-2495" alt="RohrFrisch">															</div>
 				</div>
 				<div class="elementor-element elementor-element-11918eb elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="11918eb" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
 				<div class="elementor-widget-container">
@@ -1896,7 +1896,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-ee93eb8 e-con-full e-flex e-con e-child" data-id="ee93eb8" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-541895e elementor-widget elementor-widget-image" data-id="541895e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFisch-Abfluss-Rohrreinigung-4.png" class="attachment-large size-large wp-image-2208" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFisch-Abfluss-Rohrreinigung-4.png" class="attachment-large size-large wp-image-2208" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-1f01fce elementor-widget elementor-widget-text-editor" data-id="1f01fce" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -2007,7 +2007,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-2ac8be58 elementor-widget elementor-widget-image" data-id="2ac8be58" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="tel:+4314420059">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-50e81d1 elementor-widget elementor-widget-heading" data-id="50e81d1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -2019,7 +2019,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-3be66722 elementor-widget elementor-widget-image" data-id="3be66722" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/kontakt/">
-							<img loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-5dc298d1 elementor-widget elementor-widget-heading" data-id="5dc298d1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -2031,7 +2031,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-56cc0e06 elementor-widget elementor-widget-image" data-id="56cc0e06" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="https://api.whatsapp.com/send/?phone=436603221670&amp;text&amp;type=phone_number&amp;app_absent=0">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-53a4167e elementor-widget elementor-widget-heading" data-id="53a4167e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -2047,7 +2047,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-ccf028d elementor-widget elementor-widget-image" data-id="ccf028d" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="tel:+4314420059">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-721c4d0 elementor-widget elementor-widget-heading" data-id="721c4d0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -2058,7 +2058,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-267fa200 e-con-full e-flex e-con e-child" data-id="267fa200" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-6054cd89 elementor-widget elementor-widget-image" data-id="6054cd89" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-597d6b15 elementor-widget elementor-widget-heading" data-id="597d6b15" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -2068,7 +2068,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-53ce004a e-con-full e-flex e-con e-child" data-id="53ce004a" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-7c1a31d4 elementor-widget elementor-widget-image" data-id="7c1a31d4" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-5304677a elementor-widget elementor-widget-heading" data-id="5304677a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">

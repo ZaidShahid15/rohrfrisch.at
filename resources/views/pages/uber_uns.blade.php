@@ -527,7 +527,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-922c3fb elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="922c3fb" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/">
-							<img width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
+							<img decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
 															</div>
 				</div>
 				</div>
@@ -704,7 +704,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-f8da2fc elementor-widget elementor-widget-plumerfeatures" data-id="f8da2fc" data-element_type="widget" data-widget_type="plumerfeatures.default">
 				<div class="elementor-widget-container">
-					<div class="row gy-4"><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_1.svg" alt="choose_feature_1"></div><h3 class="box-title">Transparente Preise</h3><p class="choose-feature_text">Vorab-Kostenvoranschläge für klare und faire Preisgestaltung ohne versteckte Gebühren.</p></div></div><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_2.svg" alt="choose_feature_2"></div><h3 class="box-title">Fachkundige Techniker</h3><p class="choose-feature_text">Erfahrene Experten bieten professionelle Lösungen für alle Sanitärbereiche.</p></div></div><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_3.svg" alt="choose_feature_3"></div><h3 class="box-title">Hochwertige Materialien</h3><p class="choose-feature_text">Verwendung erstklassiger Materialien für langlebige und zuverlässige Ergebnisse.</p></div></div><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_4.svg" alt="choose_feature_4"></div><h3 class="box-title">Zertifizierte Dienstleistungen</h3><p class="choose-feature_text">Unsere Services entsprechen höchsten Standards und garantieren Sicherheit.</p></div></div></div>				</div>
+					<div class="row gy-4"><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_1.svg" alt="choose_feature_1"></div><h3 class="box-title">Transparente Preise</h3><p class="choose-feature_text">Vorab-Kostenvoranschläge für klare und faire Preisgestaltung ohne versteckte Gebühren.</p></div></div><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_2.svg" alt="choose_feature_2"></div><h3 class="box-title">Fachkundige Techniker</h3><p class="choose-feature_text">Erfahrene Experten bieten professionelle Lösungen für alle Sanitärbereiche.</p></div></div><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_3.svg" alt="choose_feature_3"></div><h3 class="box-title">Hochwertige Materialien</h3><p class="choose-feature_text">Verwendung erstklassiger Materialien für langlebige und zuverlässige Ergebnisse.</p></div></div><div class="col-xl-3 col-sm-6"><div class="choose-feature"><div class="choose-feature_icon"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_4.svg" alt="choose_feature_4"></div><h3 class="box-title">Zertifizierte Dienstleistungen</h3><p class="choose-feature_text">Unsere Services entsprechen höchsten Standards und garantieren Sicherheit.</p></div></div></div>				</div>
 				</div>
 					</div>
 		</div>
@@ -726,7 +726,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<div class="about-premium-grid">
 								<div class="about-premium-media">
 									<div class="about-premium-frame">
-										<img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/IMG_7953.jpg" alt="Rohrfrisch Techniker bei der Arbeit" class="about-premium-main-image">
+										<img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/IMG_7953.jpg" alt="Rohrfrisch Techniker bei der Arbeit" class="about-premium-main-image">
 									</div>
 									<div class="about-premium-year">
 										<div class="about-premium-year-number">24</div>
@@ -739,19 +739,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<div class="about-premium-panel">
 									<div class="about-premium-feature-grid">
 										<div class="about-premium-feature">
-											<img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_3.svg" alt="Hochwertige Materialien">
+											<img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_3.svg" alt="Hochwertige Materialien">
 											<h3>Hochwertige Materialien</h3>
 											<p>Verwendung erstklassiger Materialien für langlebige und zuverlässige Ergebnisse.</p>
 										</div>
 										<div class="about-premium-feature">
-											<img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_4.svg" alt="Zertifizierte Dienstleistungen">
+											<img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_4.svg" alt="Zertifizierte Dienstleistungen">
 											<h3>Zertifizierte Dienstleistungen</h3>
 											<p>Unsere Services entsprechen höchsten Standards und garantieren Sicherheit.</p>
 										</div>
 									</div>
 									<div class="about-premium-copy">
 										<span class="about-premium-kicker">
-											<img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="">
+											<img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="">
 											Über Rohrfrisch
 										</span>
 										<h2>Unser Unternehmen bietet Abfluss- und Rohrreinigung in Wien</h2>
@@ -798,7 +798,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-011bb79 elementor-widget elementor-widget-plumersectiontitle" data-id="011bb79" data-element_type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area"><span class="sub-title subtitle-selector"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="title_shape_1" class="icon">Wie es funktioniert</span><h2 class="sec-title title-selector">Unser Standardarbeitsprozess</h2></div></div>				</div>
+					<div class="title-area-wrap"><div class="title-area"><span class="sub-title subtitle-selector"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="title_shape_1" class="icon">Wie es funktioniert</span><h2 class="sec-title title-selector">Unser Standardarbeitsprozess</h2></div></div>				</div>
 				</div>
 					</div>
 		</div>
@@ -810,7 +810,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-b55c199 elementor-widget elementor-widget-plumerworkprocess" data-id="b55c199" data-element_type="widget" data-widget_type="plumerworkprocess.default">
 				<div class="elementor-widget-container">
-					<div class="process-card-area"><div class="row gx-0 gy-40 justify-content-center"><div class="col-md-6 col-xl-4 process-card-wrap"><div class="process-card"><div class="process-card_img"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/plumbing-service-edmonton.webp" alt="Image"><div class="process-card_icon"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" alt="icon"></div></div><h2 class="box-title">Kontaktaufnahme und Terminvereinbarung</h2><p class="process-card_text">Sie erreichen uns telefonisch oder online, um Ihr Anliegen zu schildern. Wir vereinbaren umgehend einen Termin, oft sind wir innerhalb von 30 Minuten vor Ort.</p></div></div><div class="col-md-6 col-xl-4 process-card-wrap"><div class="process-card"><div class="process-card_img"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/technician-checking-heating-system-boiler-room.jpg" alt="Image"><div class="process-card_icon"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="icon"></div></div><h2 class="box-title">Untersuchung und Diagnose</h2><p class="process-card_text">Unsere Fachkräfte führen eine gründliche Inspektion des betroffenen Rohrsystems durch, um die Ursache und den genauen Ort der Verstopfung zu ermitteln.</p></div></div><div class="col-md-6 col-xl-4 process-card-wrap"><div class="process-card"><div class="process-card_img"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/bathroom-sink-clogged-with-hair.webp" alt="Image"><div class="process-card_icon"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" alt="icon"></div></div><h2 class="box-title">Reinigung und Abschlusskontrolle</h2><p class="process-card_text">Mit modernen Geräten beseitigen wir die Verstopfung effizient und umweltschonend. Anschließend überprüfen wir das System, um sicherzustellen, dass alles ordnungsgemäß funktioniert.</p></div></div></div></div>				</div>
+					<div class="process-card-area"><div class="row gx-0 gy-40 justify-content-center"><div class="col-md-6 col-xl-4 process-card-wrap"><div class="process-card"><div class="process-card_img"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/plumbing-service-edmonton.webp" alt="Image"><div class="process-card_icon"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" alt="icon"></div></div><h2 class="box-title">Kontaktaufnahme und Terminvereinbarung</h2><p class="process-card_text">Sie erreichen uns telefonisch oder online, um Ihr Anliegen zu schildern. Wir vereinbaren umgehend einen Termin, oft sind wir innerhalb von 30 Minuten vor Ort.</p></div></div><div class="col-md-6 col-xl-4 process-card-wrap"><div class="process-card"><div class="process-card_img"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/technician-checking-heating-system-boiler-room.jpg" alt="Image"><div class="process-card_icon"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="icon"></div></div><h2 class="box-title">Untersuchung und Diagnose</h2><p class="process-card_text">Unsere Fachkräfte führen eine gründliche Inspektion des betroffenen Rohrsystems durch, um die Ursache und den genauen Ort der Verstopfung zu ermitteln.</p></div></div><div class="col-md-6 col-xl-4 process-card-wrap"><div class="process-card"><div class="process-card_img"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/bathroom-sink-clogged-with-hair.webp" alt="Image"><div class="process-card_icon"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" alt="icon"></div></div><h2 class="box-title">Reinigung und Abschlusskontrolle</h2><p class="process-card_text">Mit modernen Geräten beseitigen wir die Verstopfung effizient und umweltschonend. Anschließend überprüfen wir das System, um sicherzustellen, dass alles ordnungsgemäß funktioniert.</p></div></div></div></div>				</div>
 				</div>
 					</div>
 		</div>
@@ -850,7 +850,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-f1c6b40 elementor-widget elementor-widget-plumerthumbwithvideo" data-id="f1c6b40" data-element_type="widget" data-widget_type="plumerthumbwithvideo.default">
 				<div class="elementor-widget-container">
-					<div class="img-half img-right themeholy-video"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/plumbing-professional-doing-his-job.jpg" alt="plumbing professional doing his job"></div>				</div>
+					<div class="img-half img-right themeholy-video"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/plumbing-professional-doing-his-job.jpg" alt="plumbing professional doing his job"></div>				</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-460e3a5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="460e3a5" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
@@ -858,7 +858,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-ed4dd57 elementor-widget elementor-widget-plumersectiontitle" data-id="ed4dd57" data-element_type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area"><span class="sub-title subtitle-selector"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="title_shape_4" class="icon">Warum Sie sich für uns entscheiden</span><h2 class="sec-title title-selector">Vertrauen Sie uns, wenn Sie nicht wissen, was Sie tun sollen</h2></div></div>				</div>
+					<div class="title-area-wrap"><div class="title-area"><span class="sub-title subtitle-selector"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="title_shape_4" class="icon">Warum Sie sich für uns entscheiden</span><h2 class="sec-title title-selector">Vertrauen Sie uns, wenn Sie nicht wissen, was Sie tun sollen</h2></div></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-9e18a75 elementor-widget elementor-widget-drillerskillbox" data-id="9e18a75" data-element_type="widget" data-widget_type="drillerskillbox.default">
 				<div class="elementor-widget-container">
@@ -899,8 +899,8 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-aec94a1 elementor-widget elementor-widget-plumertestimonialslider" data-id="aec94a1" data-element_type="widget" data-widget_type="plumertestimonialslider.default">
 				<div class="elementor-widget-container">
-					<!-----------------------Start Testimonials Area-----------------------><div class="row themeholy-carousel arrow-wrap" data-slide-show="2" data-lg-slide-show="1" data-md-slide-show="1" data-arrows="true"><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_1.jpg" alt="testi_1_1"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Matthias Richter</h3><span class="testi-card_desig">
-</span><p class="testi-card_text">"Der Service von Rohrfrisch.at war absolut hervorragend! Die Techniker kamen pünktlich, waren freundlich und haben das Problem schnell und professionell behoben. Ich war beeindruckt von ihrer Effizienz und Gründlichkeit. Sehr empfehlenswert für alle, die einen zuverlässigen Installateur suchen!"</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_2.jpg" alt="testi_1_2"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Johannes Keller</h3><p class="testi-card_text">"Ich hatte einen Notfall mit einem verstopften Abfluss, und Rohrfrisch.at hat mir sofort geholfen. Der Kundenservice war super freundlich und die Arbeit wurde sauber und schnell erledigt. Top Preis-Leistungs-Verhältnis! Ich werde definitiv wieder auf sie zurückkommen."</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_3.jpg" alt="testi_1_3"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Miriam Schuster</h3><p class="testi-card_text">"Rohrfrisch.at hat mich wirklich beeindruckt. Die Techniker waren äußerst professionell und haben bei der Installation meiner neuen Sanitäranlagen großartige Arbeit geleistet. Alles wurde perfekt erklärt und sauber hinterlassen. Ein 1A-Service, den ich gerne weiterempfehle!"</p></div></div></div></div><!-----------------------End Testimonials Area----------------------->				</div>
+					<!-----------------------Start Testimonials Area-----------------------><div class="row themeholy-carousel arrow-wrap" data-slide-show="2" data-lg-slide-show="1" data-md-slide-show="1" data-arrows="true"><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_1.jpg" alt="testi_1_1"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Matthias Richter</h3><span class="testi-card_desig">
+</span><p class="testi-card_text">"Der Service von Rohrfrisch.at war absolut hervorragend! Die Techniker kamen pünktlich, waren freundlich und haben das Problem schnell und professionell behoben. Ich war beeindruckt von ihrer Effizienz und Gründlichkeit. Sehr empfehlenswert für alle, die einen zuverlässigen Installateur suchen!"</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_2.jpg" alt="testi_1_2"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Johannes Keller</h3><p class="testi-card_text">"Ich hatte einen Notfall mit einem verstopften Abfluss, und Rohrfrisch.at hat mir sofort geholfen. Der Kundenservice war super freundlich und die Arbeit wurde sauber und schnell erledigt. Top Preis-Leistungs-Verhältnis! Ich werde definitiv wieder auf sie zurückkommen."</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_avater"><img fetchpriority="low" loading="lazy" decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_3.jpg" alt="testi_1_3"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Miriam Schuster</h3><p class="testi-card_text">"Rohrfrisch.at hat mich wirklich beeindruckt. Die Techniker waren äußerst professionell und haben bei der Installation meiner neuen Sanitäranlagen großartige Arbeit geleistet. Alles wurde perfekt erklärt und sauber hinterlassen. Ein 1A-Service, den ich gerne weiterempfehle!"</p></div></div></div></div><!-----------------------End Testimonials Area----------------------->				</div>
 				</div>
 					</div>
 		</div>
@@ -1854,7 +1854,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 		<div class="elementor-element elementor-element-8eef239 e-con-full e-flex e-con e-child" data-id="8eef239" data-element_type="container">
 				<div class="elementor-element elementor-element-cbe4954 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="cbe4954" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px.png" class="attachment-large size-large wp-image-2495" alt="RohrFrisch">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px.png" class="attachment-large size-large wp-image-2495" alt="RohrFrisch">															</div>
 				</div>
 				<div class="elementor-element elementor-element-11918eb elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="11918eb" data-element_type="widget" data-widget_type="divider.default">
 				<div class="elementor-widget-container">
@@ -1988,7 +1988,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 		<div class="elementor-element elementor-element-ee93eb8 e-con-full e-flex e-con e-child" data-id="ee93eb8" data-element_type="container">
 				<div class="elementor-element elementor-element-541895e elementor-widget elementor-widget-image" data-id="541895e" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFisch-Abfluss-Rohrreinigung-4.png" class="attachment-large size-large wp-image-2208" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFisch-Abfluss-Rohrreinigung-4.png" class="attachment-large size-large wp-image-2208" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-1f01fce elementor-widget elementor-widget-text-editor" data-id="1f01fce" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -2099,7 +2099,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 				<div class="elementor-element elementor-element-2ac8be58 elementor-widget elementor-widget-image" data-id="2ac8be58" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="tel:+4314420059">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-50e81d1 elementor-widget elementor-widget-heading" data-id="50e81d1" data-element_type="widget" data-widget_type="heading.default">
@@ -2111,7 +2111,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 				<div class="elementor-element elementor-element-3be66722 elementor-widget elementor-widget-image" data-id="3be66722" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/kontakt/">
-							<img loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-5dc298d1 elementor-widget elementor-widget-heading" data-id="5dc298d1" data-element_type="widget" data-widget_type="heading.default">
@@ -2123,7 +2123,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 				<div class="elementor-element elementor-element-56cc0e06 elementor-widget elementor-widget-image" data-id="56cc0e06" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="https://api.whatsapp.com/send/?phone=436603221670&amp;text&amp;type=phone_number&amp;app_absent=0">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-53a4167e elementor-widget elementor-widget-heading" data-id="53a4167e" data-element_type="widget" data-widget_type="heading.default">
@@ -2139,7 +2139,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 				<div class="elementor-element elementor-element-ccf028d elementor-widget elementor-widget-image" data-id="ccf028d" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="tel:+4314420059">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-721c4d0 elementor-widget elementor-widget-heading" data-id="721c4d0" data-element_type="widget" data-widget_type="heading.default">
@@ -2150,7 +2150,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 		<div class="elementor-element elementor-element-267fa200 e-con-full e-flex e-con e-child" data-id="267fa200" data-element_type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-6054cd89 elementor-widget elementor-widget-image" data-id="6054cd89" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-597d6b15 elementor-widget elementor-widget-heading" data-id="597d6b15" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -2160,7 +2160,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 		<div class="elementor-element elementor-element-53ce004a e-con-full e-flex e-con e-child" data-id="53ce004a" data-element_type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-7c1a31d4 elementor-widget elementor-widget-image" data-id="7c1a31d4" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-5304677a elementor-widget elementor-widget-heading" data-id="5304677a" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">

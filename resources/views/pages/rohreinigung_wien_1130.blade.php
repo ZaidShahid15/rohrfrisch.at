@@ -246,7 +246,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-922c3fb elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="922c3fb" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/">
-							<img width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
+							<img decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
 															</div>
 				</div>
 				</div>
@@ -464,7 +464,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-27c9356b e-con-full e-flex e-con e-child" data-id="27c9356b" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-7481e0e5 elementor-widget elementor-widget-image" data-id="7481e0e5" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="275" height="183" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/images-5.jpeg" class="attachment-full size-full wp-image-3681" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="275" height="183" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/images-5.jpeg" class="attachment-full size-full wp-image-3681" alt="">															</div>
 				</div>
 				</div>
 					</div>
@@ -508,7 +508,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-d2decca e-con-full e-flex e-con e-child" data-id="d2decca" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-4d0cb6e elementor-widget elementor-widget-image" data-id="4d0cb6e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="275" height="183" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/images-4.jpeg" class="attachment-large size-large wp-image-3680" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="275" height="183" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/images-4.jpeg" class="attachment-large size-large wp-image-3680" alt="">															</div>
 				</div>
 				</div>
 				</div>
@@ -522,7 +522,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-a571b27 e-con-full e-flex e-con e-child" data-id="a571b27" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-8841267 elementor-widget elementor-widget-image" data-id="8841267" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="183" height="275" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/download-5.jpeg" class="attachment-full size-full wp-image-3679" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="183" height="275" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/download-5.jpeg" class="attachment-full size-full wp-image-3679" alt="">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-fa03e64 e-con-full e-flex e-con e-child" data-id="fa03e64" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
@@ -558,7 +558,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-7ef0864 elementor-widget elementor-widget-text-editor" data-id="7ef0864" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div class="title-area mb-35"><h2><span style="color: #ffffff;"><b>Kontakt &amp; Beratung – Ihr Experte für Rohreinigung Wien 1130 </b></span></h2><div><span style="color: #ffffff;"><b> </b></span></div><p><span style="color: #ffffff;">Haben Sie Verstopfungen in Ihren Rohrleitungen oder benötigen Sie eine professionelle Rohrreinigung in Wien 1120? Wir sind jederzeit für Sie da!</span></p><p><span style="color: #ffffff;"><br>Erreichen Sie uns bequem über:</span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;"><img loading="lazy" decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4de.svg" alt="📞"> </span><b>Telefon</b><span style="font-weight: 400;"> – 01234 56789</span></span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;"><img loading="lazy" decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4bb.svg" alt="💻"> </span><b>Online-Terminbuchung</b><span style="font-weight: 400;"> Besuchen Sie unsere Website und vereinbaren Sie noch heute einen Termin.</span></span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;"><img loading="lazy" decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4cd.svg" alt="📍"> </span><b>Notfallhotline:</b><span style="font-weight: 400;"> 0800 123 456 (rund um die Uhr)</span></span></p><p><span style="color: #ffffff;"><b>Zögern Sie nicht, uns für eine unverbindliche Beratung zu kontaktieren – wir helfen Ihnen schnell und professionell bei Ihren Abflussproblemen!</b></span></p></div>								</div>
+									<div class="title-area mb-35"><h2><span style="color: #ffffff;"><b>Kontakt &amp; Beratung – Ihr Experte für Rohreinigung Wien 1130 </b></span></h2><div><span style="color: #ffffff;"><b> </b></span></div><p><span style="color: #ffffff;">Haben Sie Verstopfungen in Ihren Rohrleitungen oder benötigen Sie eine professionelle Rohrreinigung in Wien 1120? Wir sind jederzeit für Sie da!</span></p><p><span style="color: #ffffff;"><br>Erreichen Sie uns bequem über:</span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;"><img fetchpriority="low" loading="lazy" decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4de.svg" alt="📞"> </span><b>Telefon</b><span style="font-weight: 400;"> – 01234 56789</span></span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;"><img fetchpriority="low" loading="lazy" decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4bb.svg" alt="💻"> </span><b>Online-Terminbuchung</b><span style="font-weight: 400;"> Besuchen Sie unsere Website und vereinbaren Sie noch heute einen Termin.</span></span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;"><img fetchpriority="low" loading="lazy" decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4cd.svg" alt="📍"> </span><b>Notfallhotline:</b><span style="font-weight: 400;"> 0800 123 456 (rund um die Uhr)</span></span></p><p><span style="color: #ffffff;"><b>Zögern Sie nicht, uns für eine unverbindliche Beratung zu kontaktieren – wir helfen Ihnen schnell und professionell bei Ihren Abflussproblemen!</b></span></p></div>								</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-bdf199d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bdf199d" data-element_type="section" data-e-type="section">
 						<div class="elementor-container elementor-column-gap-no">
@@ -1738,7 +1738,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-8eef239 e-con-full e-flex e-con e-child" data-id="8eef239" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-cbe4954 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="cbe4954" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px.png" class="attachment-large size-large wp-image-2495" alt="RohrFrisch">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px.png" class="attachment-large size-large wp-image-2495" alt="RohrFrisch">															</div>
 				</div>
 				<div class="elementor-element elementor-element-11918eb elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="11918eb" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
 				<div class="elementor-widget-container">
@@ -1867,7 +1867,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-ee93eb8 e-con-full e-flex e-con e-child" data-id="ee93eb8" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-541895e elementor-widget elementor-widget-image" data-id="541895e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFisch-Abfluss-Rohrreinigung-4.png" class="attachment-large size-large wp-image-2208" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFisch-Abfluss-Rohrreinigung-4.png" class="attachment-large size-large wp-image-2208" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-1f01fce elementor-widget elementor-widget-text-editor" data-id="1f01fce" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -1978,7 +1978,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-2ac8be58 elementor-widget elementor-widget-image" data-id="2ac8be58" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="tel:+4314420059">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-50e81d1 elementor-widget elementor-widget-heading" data-id="50e81d1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -1990,7 +1990,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-3be66722 elementor-widget elementor-widget-image" data-id="3be66722" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/kontakt/">
-							<img loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-5dc298d1 elementor-widget elementor-widget-heading" data-id="5dc298d1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -2002,7 +2002,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-56cc0e06 elementor-widget elementor-widget-image" data-id="56cc0e06" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="https://api.whatsapp.com/send/?phone=436603221670&amp;text&amp;type=phone_number&amp;app_absent=0">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-53a4167e elementor-widget elementor-widget-heading" data-id="53a4167e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -2018,7 +2018,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-ccf028d elementor-widget elementor-widget-image" data-id="ccf028d" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="tel:+4314420059">
-							<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
+							<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-100.png" class="attachment-large size-large wp-image-2063" alt="">								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-721c4d0 elementor-widget elementor-widget-heading" data-id="721c4d0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -2029,7 +2029,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-267fa200 e-con-full e-flex e-con e-child" data-id="267fa200" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-6054cd89 elementor-widget elementor-widget-image" data-id="6054cd89" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="28" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-101.png" class="attachment-large size-large wp-image-2064" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-597d6b15 elementor-widget elementor-widget-heading" data-id="597d6b15" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -2039,7 +2039,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-53ce004a e-con-full e-flex e-con e-child" data-id="53ce004a" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-7c1a31d4 elementor-widget elementor-widget-image" data-id="7c1a31d4" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">															</div>
+															<img fetchpriority="low" loading="lazy" decoding="async" width="34" height="35" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Group-102.png" class="attachment-large size-large wp-image-2065" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-5304677a elementor-widget elementor-widget-heading" data-id="5304677a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
