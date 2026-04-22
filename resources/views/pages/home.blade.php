@@ -16,6 +16,8 @@ class="home wp-singular page-template page-template-elementor_header_footer page
 
 <meta name="robots" content="index, follow">
 
+<link rel="preload" as="image" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png" fetchpriority="high">
+
 <link rel="dns-prefetch" href="/site-clone/fonts.googleapis.com/asset">
 
 <link rel="alternate" type="application/rss+xml" title="RohrFrisch &raquo; Feed" href="https://rohrfrisch.at/feed/">
@@ -320,7 +322,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-88abfed elementor-widget__width-initial elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="88abfed" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="400" height="400" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb.png" class="attachment-large size-large wp-image-2510" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb.png 400w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-300x300.png 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-150x150.png 150w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-85x85.png 85w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-80x80.png 80w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-100x100.png 100w" sizes="(max-width: 400px) 100vw, 400px">															</div>
+															<img loading="lazy" fetchpriority="low" decoding="async" width="400" height="400" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb.png" class="attachment-large size-large wp-image-2510" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb.png 400w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-300x300.png 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-150x150.png 150w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-85x85.png 85w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-80x80.png 80w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/01/6256c15ccd258e35c0314eff_meisterbetrieb-100x100.png 100w" sizes="(max-width: 400px) 100vw, 400px">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-cef668f e-con-full e-flex e-con e-child" data-id="cef668f" data-element_type="container">
