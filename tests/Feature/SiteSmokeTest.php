@@ -30,7 +30,7 @@ class SiteSmokeTest extends TestCase
 
         $response->assertOk();
         $response->assertSee('<link rel="canonical" href="/abflussreinigung-wien-1020/">', false);
-        $response->assertSee('<meta name="robots" content="noindex, follow">', false);
+        $response->assertSee('<meta name="robots" content="index, follow">', false);
     }
 
     public function test_sitemap_is_available_and_lists_known_pages(): void

@@ -14,7 +14,7 @@ class="wp-singular page-template page-template-elementor_header_footer page page
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-<meta name="robots" content="noindex, follow">
+<meta name="robots" content="index, follow">
 
 <link rel="dns-prefetch" href="/site-clone/fonts.googleapis.com/asset">
 
@@ -219,7 +219,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <style id="wp-custom-css">
 			.scroll-top{
 	margin: 0 -20px 70px 0px;
-	
+
 }
 .hero-social {
 	display: none;
@@ -1944,7 +1944,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<input type="hidden" name="referer_title" value="">
 
 							<input type="hidden" name="queried_id" value="1820">
-			
+
 			<div class="elementor-form-fields-wrapper elementor-labels-">
 								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-field-required">
 													<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email" required="required">

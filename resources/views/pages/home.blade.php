@@ -14,7 +14,7 @@ class="home wp-singular page-template page-template-elementor_header_footer page
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-<meta name="robots" content="noindex, follow">
+<meta name="robots" content="index, follow">
 
 <link rel="dns-prefetch" href="/site-clone/fonts.googleapis.com/asset">
 
