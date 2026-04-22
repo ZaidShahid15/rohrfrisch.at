@@ -1,8 +1,45 @@
 <!doctype html>
 <html lang="@yield('html_lang', 'en-US')">
+@php
+    $pageTitle = trim($__env->yieldContent('title', 'RohrFrisch'));
+    $pageHead = trim($__env->yieldContent('head'));
+    $defaultDescription = trim($__env->yieldContent(
+        'meta_description',
+        'RohrFrisch bietet Abflussreinigung, Rohrreinigung und Kanalservice in Wien, Niederoesterreich und Burgenland.'
+    ));
+    $canonicalUrl = url()->current();
+
+    if ($pageHead !== '') {
+        $pageHead = preg_replace_callback(
+            '#<link\s+rel="canonical"\s+href="([^"]*)"\s*/?>#i',
+            static function (array $matches) use ($canonicalUrl): string {
+                $href = trim($matches[1]);
+
+                if ($href === '' || $href === '/') {
+                    return '<link rel="canonical" href="' . e($canonicalUrl) . '">';
+                }
+
+                if (preg_match('#^https?://#i', $href)) {
+                    return $matches[0];
+                }
+
+                return '<link rel="canonical" href="' . e(url($href)) . '">';
+            },
+            $pageHead
+        ) ?? $pageHead;
+
+        if (! preg_match('#<meta\s+name="description"#i', $pageHead)) {
+            $pageHead .= PHP_EOL . '<meta name="description" content="' . e($defaultDescription) . '">';
+        }
+
+        if (! preg_match('#<link\s+rel="canonical"#i', $pageHead)) {
+            $pageHead .= PHP_EOL . '<link rel="canonical" href="' . e($canonicalUrl) . '">';
+        }
+    }
+@endphp
 <head>
-    <title>@yield('title', 'RohrFrisch')</title>
-    @yield('head')
+    <title>{{ $pageTitle }}</title>
+    {!! $pageHead !!}
     <style>
         @media (max-width: 767px) {
             body {
@@ -86,6 +123,19 @@
             });
         </script>
     @endif
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            if (document.querySelector('main, [role="main"]')) {
+                return;
+            }
+
+            var mainTarget = document.querySelector('[data-elementor-post-type="page"], [data-elementor-type="wp-page"], .elementor.elementor-page');
+
+            if (mainTarget) {
+                mainTarget.setAttribute('role', 'main');
+            }
+        });
+    </script>
     @yield('scripts')
 </body>
 </html>
