@@ -3,12 +3,14 @@
 @php
     $pageTitle = trim($__env->yieldContent('title', 'RohrFrisch'));
     $pageHead = trim($__env->yieldContent('head'));
+    $pageContent = $__env->yieldContent('content');
     $pageScripts = trim($__env->yieldContent('scripts'));
     $defaultDescription = trim($__env->yieldContent(
         'meta_description',
         'RohrFrisch bietet Abflussreinigung, Rohrreinigung und Kanalservice in Wien, Niederoesterreich und Burgenland.'
     ));
     $canonicalUrl = url()->current();
+    $applicationHost = parse_url(url('/'), PHP_URL_HOST);
     $assetIdsToStrip = [
         'jquery-migrate-js',
         'perfect-scrollbar-css',
@@ -18,8 +20,108 @@
         'perfect-scrollbar-js',
         'woosq-frontend-js',
     ];
+    $contentBasedCssAssets = [];
     $duplicateLinkHrefs = [];
     $duplicateScriptSrcs = [];
+    $extractedBodyStylesheets = '';
+    $extractedBodyScripts = '';
+
+    $normalizeAssetUrl = static function (string $url) use ($applicationHost): string {
+        $normalized = html_entity_decode(trim($url), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+
+        if ($normalized === '') {
+            return $normalized;
+        }
+
+        if (str_starts_with($normalized, '//')) {
+            $normalized = 'https:' . $normalized;
+        }
+
+        $parts = parse_url($normalized);
+
+        if ($parts === false) {
+            return $normalized;
+        }
+
+        $host = $parts['host'] ?? null;
+        $path = $parts['path'] ?? '';
+        $query = isset($parts['query']) ? '?' . $parts['query'] : '';
+        $fragment = isset($parts['fragment']) ? '#' . $parts['fragment'] : '';
+
+        if ($host === null && $path !== '') {
+            return $path . $query;
+        }
+
+        if ($host !== null && $applicationHost !== null && strcasecmp($host, $applicationHost) === 0) {
+            return $path . $query;
+        }
+
+        if ($host !== null && in_array(strtolower($host), ['127.0.0.1', 'localhost'], true)) {
+            return $path . $query;
+        }
+
+        $scheme = isset($parts['scheme']) ? strtolower($parts['scheme']) . ':' : '';
+
+        return $scheme . ($host !== null ? '//' . $host : '') . $path . $query . $fragment;
+    };
+
+    $extractBodyAssetMarkup = static function (string $markup): array {
+        $stylesheets = [];
+        $scripts = [];
+
+        $markup = preg_replace_callback(
+            '#\s*<link\b(?=[^>]*\brel=(["\'])stylesheet\1)(?=[^>]*\bhref=(["\'])([^"\']+)\2)[^>]*>\s*#i',
+            static function (array $matches) use (&$stylesheets): string {
+                $stylesheets[] = trim($matches[0]);
+
+                return PHP_EOL;
+            },
+            $markup
+        ) ?? $markup;
+
+        $markup = preg_replace_callback(
+            '#\s*<script\b(?=[^>]*\bsrc=(["\'])([^"\']+)\1)[^>]*>\s*</script>\s*#i',
+            static function (array $matches) use (&$scripts): string {
+                $scripts[] = trim($matches[0]);
+
+                return PHP_EOL;
+            },
+            $markup
+        ) ?? $markup;
+
+        return [
+            'content' => $markup,
+            'stylesheets' => trim(implode(PHP_EOL, $stylesheets)),
+            'scripts' => trim(implode(PHP_EOL, $scripts)),
+        ];
+    };
+
+    if (! str_contains($pageContent, 'elementor-widget-table-of-contents')) {
+        $contentBasedCssAssets[] = 'widget-table-of-contents-css';
+    }
+
+    if (! str_contains($pageContent, 'e-n-accordion')) {
+        $contentBasedCssAssets[] = 'widget-nested-accordion-css';
+    }
+
+    if (! str_contains($pageContent, 'twae-timeline') && ! str_contains($pageContent, 'twae-')) {
+        $contentBasedCssAssets[] = 'twae-common-styles-css';
+        $contentBasedCssAssets[] = 'twae-vertical-timeline-css';
+    }
+
+    if (
+        ! str_contains($pageContent, 'class="wc-block')
+        && ! str_contains($pageContent, 'wp-block-woocommerce')
+        && ! str_contains($pageContent, 'wc-block-grid')
+        && ! str_contains($pageContent, 'wc-block-components')
+    ) {
+        $contentBasedCssAssets[] = 'wc-blocks-style-css';
+    }
+
+    $extractedBodyAssetMarkup = $extractBodyAssetMarkup($pageContent);
+    $pageContent = $extractedBodyAssetMarkup['content'];
+    $extractedBodyStylesheets = $extractedBodyAssetMarkup['stylesheets'];
+    $extractedBodyScripts = $extractedBodyAssetMarkup['scripts'];
 
     $removeTaggedAssets = static function (string $markup, array $assetIds): string {
         foreach ($assetIds as $assetId) {
@@ -45,11 +147,11 @@
         return $markup;
     };
 
-    $dedupeLinkHrefs = static function (string $markup) use (&$duplicateLinkHrefs): string {
+    $dedupeLinkHrefs = static function (string $markup) use (&$duplicateLinkHrefs, $normalizeAssetUrl): string {
         return preg_replace_callback(
             '#<link\b(?=[^>]*\bhref="([^"]+)")[^>]*>#i',
-            static function (array $matches) use (&$duplicateLinkHrefs): string {
-                $href = $matches[1];
+            static function (array $matches) use (&$duplicateLinkHrefs, $normalizeAssetUrl): string {
+                $href = $normalizeAssetUrl($matches[1]);
 
                 if (isset($duplicateLinkHrefs[$href])) {
                     return '';
@@ -63,11 +165,11 @@
         ) ?? $markup;
     };
 
-    $dedupeScriptSrcs = static function (string $markup) use (&$duplicateScriptSrcs): string {
+    $dedupeScriptSrcs = static function (string $markup) use (&$duplicateScriptSrcs, $normalizeAssetUrl): string {
         return preg_replace_callback(
             '#<script\b(?=[^>]*\bsrc="([^"]+)")[^>]*>\s*</script>#i',
-            static function (array $matches) use (&$duplicateScriptSrcs): string {
-                $src = $matches[1];
+            static function (array $matches) use (&$duplicateScriptSrcs, $normalizeAssetUrl): string {
+                $src = $normalizeAssetUrl($matches[1]);
 
                 if (isset($duplicateScriptSrcs[$src])) {
                     return '';
@@ -81,8 +183,13 @@
         ) ?? $markup;
     };
 
+    if ($extractedBodyStylesheets !== '') {
+        $pageHead = trim($pageHead . PHP_EOL . $extractedBodyStylesheets);
+    }
+
     if ($pageHead !== '') {
         $pageHead = $removeTaggedAssets($pageHead, $assetIdsToStrip);
+        $pageHead = $removeTaggedAssets($pageHead, $contentBasedCssAssets);
         $pageHead = $dedupeLinkHrefs($pageHead);
 
         $pageHead = preg_replace_callback(
@@ -110,6 +217,10 @@
         if (! preg_match('#<link\s+rel="canonical"#i', $pageHead)) {
             $pageHead .= PHP_EOL . '<link rel="canonical" href="' . e($canonicalUrl) . '">';
         }
+    }
+
+    if ($extractedBodyScripts !== '') {
+        $pageScripts = trim($extractedBodyScripts . PHP_EOL . $pageScripts);
     }
 
     if ($pageScripts !== '') {
@@ -197,10 +308,21 @@
                 display: none !important;
             }
         }
+
+        .elementor-2036 .elementor-element.elementor-element-7ef0864,
+        .elementor-2036 .elementor-element.elementor-element-7ef0864 .title-area,
+        .elementor-2036 .elementor-element.elementor-element-7ef0864 .title-area > *,
+        .elementor-2036 .elementor-element.elementor-element-7ef0864 .title-area span,
+        .elementor-2036 .elementor-element.elementor-element-7ef0864 .title-area b,
+        .elementor-2036 .elementor-element.elementor-element-7ef0864 .title-area strong,
+        .elementor-2036 .elementor-element.elementor-element-7ef0864 .title-area li,
+        .elementor-2036 .elementor-element.elementor-element-7ef0864 .title-area a {
+            color: #1f2937 !important;
+        }
     </style>
 </head>
 <body @yield('body_attributes')>
-    @yield('content')
+    {!! $pageContent !!}
     @if (session('form_success'))
         <script>
             window.addEventListener('load', function () {
