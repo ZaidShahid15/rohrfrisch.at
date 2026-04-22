@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Controllers;
 
 use App\Support\FormMailHelper;
@@ -12,11 +14,11 @@ class FormSubmissionController extends Controller
 {
     public function submit(Request $request): RedirectResponse
     {
-        $formKind = (string) $request->input('form_kind', 'contact');
+        $formKind = (string) $request->input('form_kind', FormMailHelper::CONTACT_FORM_KIND);
 
         $request->validate(FormMailHelper::rules($formKind));
 
-        if ($formKind !== 'footer') {
+        if ($formKind !== FormMailHelper::FOOTER_FORM_KIND) {
             $this->validateContactForm($request);
         }
 

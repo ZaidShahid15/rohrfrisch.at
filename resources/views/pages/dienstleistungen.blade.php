@@ -200,7 +200,7 @@ var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+'/external/googletagmanager/gtm-GTM-M8PBTKZ2.js';f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M8PBTKZ2');</script>
 
 <!-- End Google Tag Manager -->
@@ -210,7 +210,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="apple-touch-icon" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-180x180.png">
 
-<meta name="msapplication-TileImage" content="https://rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
+<meta name="msapplication-TileImage" content="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
 
 <style id="wp-custom-css">
 			.scroll-top{

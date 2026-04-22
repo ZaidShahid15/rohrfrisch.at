@@ -196,7 +196,7 @@ var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+'/external/googletagmanager/gtm-GTM-M8PBTKZ2.js';f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M8PBTKZ2');</script>
 
 <!-- End Google Tag Manager -->
@@ -206,7 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="apple-touch-icon" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-180x180.png">
 
-<meta name="msapplication-TileImage" content="https://rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
+<meta name="msapplication-TileImage" content="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
 
 <style id="wp-custom-css">
 			.scroll-top{
@@ -220,6 +220,297 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</style>
 
 <style id="plumer_opt-dynamic-css" title="dynamic-css" class="redux-options-output">.breadcumb-wrapper{background-repeat:no-repeat;background-position:center center;background-image:url(/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/breadcumb-bg.jpg);background-size:cover;}.footer-copyright{background-color:#1b1b1b;}</style>
+<style>
+    .about-premium {
+        position: relative;
+        padding: 28px;
+        border-radius: 28px;
+        background:
+            radial-gradient(circle at top left, rgba(255, 85, 0, 0.12), transparent 34%),
+            linear-gradient(135deg, #ffffff 0%, #fff8f3 100%);
+        border: 1px solid rgba(34, 24, 18, 0.08);
+        box-shadow: 0 28px 70px rgba(25, 20, 17, 0.12);
+        overflow: hidden;
+    }
+
+    .about-premium::after {
+        content: "";
+        position: absolute;
+        inset: auto -80px -90px auto;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255, 85, 0, 0.12), transparent 68%);
+        pointer-events: none;
+    }
+
+    .about-premium-grid {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: minmax(0, 1.06fr) minmax(0, 0.94fr);
+        gap: 34px;
+        align-items: center;
+    }
+
+    .about-premium-media {
+        position: relative;
+        min-height: 100%;
+    }
+
+    .about-premium-frame {
+        position: relative;
+        padding: 16px;
+        border-radius: 26px;
+        background: linear-gradient(160deg, #fff 0%, #fff2e8 100%);
+        border: 1px solid rgba(255, 85, 0, 0.12);
+        box-shadow: 0 18px 44px rgba(26, 18, 13, 0.14);
+    }
+
+    .about-premium-main-image {
+        display: block;
+        width: 100%;
+        aspect-ratio: 0.86;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .about-premium-year {
+        position: absolute;
+        right: -18px;
+        bottom: 28px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 16px;
+        min-width: 156px;
+        border-radius: 18px;
+        background: #ffffff;
+        border: 1px solid rgba(255, 85, 0, 0.12);
+        box-shadow: 0 18px 38px rgba(23, 18, 15, 0.16);
+    }
+
+    .about-premium-year-number {
+        font-family: "Roboto Slab", serif;
+        font-size: 2rem;
+        line-height: 1;
+        font-weight: 700;
+        color: #ff5a1f;
+    }
+
+    .about-premium-year-label {
+        display: block;
+        color: #69615c;
+        font-size: 0.82rem;
+        line-height: 1.2;
+    }
+
+    .about-premium-year-title {
+        display: block;
+        color: #221f1d;
+        font-size: 0.98rem;
+        font-weight: 700;
+        line-height: 1.15;
+    }
+
+    .about-premium-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    .about-premium-feature-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .about-premium-feature {
+        padding: 18px 16px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.96);
+        border: 1px solid rgba(34, 24, 18, 0.08);
+        box-shadow: 0 14px 30px rgba(30, 24, 20, 0.08);
+    }
+
+    .about-premium-feature img {
+        width: 42px;
+        height: 42px;
+        object-fit: contain;
+        margin-bottom: 14px;
+    }
+
+    .about-premium-feature h3 {
+        margin: 0 0 8px;
+        color: #221f1d;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .about-premium-feature p {
+        margin: 0;
+        color: #6e6661;
+        font-size: 0.92rem;
+        line-height: 1.6;
+    }
+
+    .about-premium-copy {
+        padding: 26px;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(34, 24, 18, 0.08);
+        box-shadow: 0 16px 34px rgba(30, 24, 20, 0.08);
+    }
+
+    .about-premium-kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 16px;
+        color: #ff5a1f;
+        font-size: 0.92rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+    }
+
+    .about-premium-kicker img {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+    }
+
+    .about-premium-copy h2 {
+        margin: 0 0 14px;
+        color: #1f1a17;
+        font-size: clamp(2rem, 2.6vw, 3.2rem);
+        line-height: 1.08;
+        letter-spacing: -0.03em;
+    }
+
+    .about-premium-copy p {
+        margin: 0;
+        color: #605854;
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+
+    .about-premium-points {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .about-premium-points span {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        padding: 11px 15px;
+        border-radius: 999px;
+        background: #fff;
+        border: 1px solid rgba(255, 85, 0, 0.14);
+        color: #201c19;
+        font-size: 0.94rem;
+        font-weight: 600;
+        box-shadow: 0 10px 24px rgba(31, 24, 20, 0.08);
+    }
+
+    .about-premium-points i {
+        color: #ff5a1f;
+        font-size: 0.85rem;
+    }
+
+    .about-premium-actions {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .about-premium-phone {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 190px;
+        padding: 15px 24px;
+        border-radius: 999px;
+        background: linear-gradient(135deg, #ff5a1f 0%, #ff7a1a 100%);
+        color: #fff;
+        font-weight: 700;
+        box-shadow: 0 18px 34px rgba(255, 90, 31, 0.28);
+    }
+
+    .about-premium-phone:hover,
+    .about-premium-phone:focus {
+        color: #fff;
+    }
+
+    @media (max-width: 991px) {
+        .about-premium {
+            padding: 22px;
+            border-radius: 24px;
+        }
+
+        .about-premium-grid {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .about-premium-year {
+            right: 16px;
+            bottom: 16px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .about-premium {
+            padding: 16px;
+            border-radius: 22px;
+        }
+
+        .about-premium-frame {
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .about-premium-main-image {
+            aspect-ratio: 0.92;
+            border-radius: 16px;
+        }
+
+        .about-premium-year {
+            position: static;
+            margin-top: 14px;
+            min-width: 0;
+        }
+
+        .about-premium-panel {
+            gap: 16px;
+        }
+
+        .about-premium-feature-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .about-premium-feature,
+        .about-premium-copy {
+            padding: 18px;
+            border-radius: 18px;
+        }
+
+        .about-premium-copy h2 {
+            font-size: 1.72rem;
+        }
+
+        .about-premium-points {
+            flex-direction: column;
+        }
+
+        .about-premium-points span,
+        .about-premium-phone {
+            width: 100%;
+        }
+    }
+</style>
 @endsection
 
 @section('content')
@@ -429,28 +720,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<section class="elementor-section elementor-inner-section elementor-element elementor-element-263f917 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="263f917" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4ee5233" data-id="4ee5233" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4ee5233" data-id="4ee5233" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-ec8b86c elementor-widget elementor-widget-plumergroupimage" data-id="ec8b86c" data-element_type="widget" data-widget_type="plumergroupimage.default">
-				<div class="elementor-widget-container">
-					<div class="img-box1"><div class="img1"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/Untitled-design-54.png" alt="Untitled design 54"><div class="ripple-shape"><span class="ripple-1"></span><span class="ripple-2"></span><span class="ripple-3"></span><span class="ripple-4"></span><span class="ripple-5"></span><span class="ripple-6"></span></div></div><div class="img2"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/IMG_7953.jpg" alt="about_1_2"></div><div class="year-counter"><div class="year-counter_number">24</div><div class="media-body"><span class="year-counter_text">Sanitär</span><span class="year-counter_title">Jahre Erfahrung</span></div></div></div>				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-47db8d2" data-id="47db8d2" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-77aa1c2 elementor-widget elementor-widget-plumersectiontitle" data-id="77aa1c2" data-element_type="widget" data-widget_type="plumersectiontitle.default">
-				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><span class="sub-title subtitle-selector"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="title_shape_1" class="icon">Über Rohrfrisch</span><h2 class="sec-title title-selector">Unser Unternehmen bietet Abfluss- und Rohrreinigung in Wien</h2></div><p class="desc-selector mt-n2 mb-30">RohrFrisch ist auf die Kanal- und Rohrreinigung in Wien, Niederösterreich und dem Burgenland spezialisiert. Wir bieten transparente, faire Preise und sind innerhalb von 30 Minuten vor Ort. Unsere 24-Stunden-Erreichbarkeit sowie die Möglichkeit der Bar- und Kartenzahlung unterstreichen unseren kundenorientierten Service.</p></div>				</div>
-				</div>
-				<div class="elementor-element elementor-element-bf02010 elementor-widget elementor-widget-plumerchecklist" data-id="bf02010" data-element_type="widget" data-widget_type="plumerchecklist.default">
-				<div class="elementor-widget-container">
-					<div class="checklist style2"><ul><li><i class="fa-solid fa-badge-check"></i> Kontak</li><li><i class="fa-solid fa-badge-check"></i> Untersuchung</li><li><i class="fa-solid fa-badge-check"></i> Reinigung</li></ul></div>				</div>
-				</div>
-				<div class="elementor-element elementor-element-3505d81 elementor-widget elementor-widget-plumerbutton" data-id="3505d81" data-element_type="widget" data-widget_type="plumerbutton.default">
-				<div class="elementor-widget-container">
-					<!-- Button --><div class="btn-wrapper "><a class="themeholy-btn" href="tel:%20+4314420059">+4314420059</a></div><!-- End Button -->				</div>
-				</div>
+						<div class="about-premium">
+							<div class="about-premium-grid">
+								<div class="about-premium-media">
+									<div class="about-premium-frame">
+										<img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/02/IMG_7953.jpg" alt="Rohrfrisch Techniker bei der Arbeit" class="about-premium-main-image">
+									</div>
+									<div class="about-premium-year">
+										<div class="about-premium-year-number">24</div>
+										<div>
+											<span class="about-premium-year-label">Sanitär</span>
+											<span class="about-premium-year-title">Jahre Erfahrung</span>
+										</div>
+									</div>
+								</div>
+								<div class="about-premium-panel">
+									<div class="about-premium-feature-grid">
+										<div class="about-premium-feature">
+											<img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_3.svg" alt="Hochwertige Materialien">
+											<h3>Hochwertige Materialien</h3>
+											<p>Verwendung erstklassiger Materialien für langlebige und zuverlässige Ergebnisse.</p>
+										</div>
+										<div class="about-premium-feature">
+											<img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_4.svg" alt="Zertifizierte Dienstleistungen">
+											<h3>Zertifizierte Dienstleistungen</h3>
+											<p>Unsere Services entsprechen höchsten Standards und garantieren Sicherheit.</p>
+										</div>
+									</div>
+									<div class="about-premium-copy">
+										<span class="about-premium-kicker">
+											<img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" alt="">
+											Über Rohrfrisch
+										</span>
+										<h2>Unser Unternehmen bietet Abfluss- und Rohrreinigung in Wien</h2>
+										<p>RohrFrisch ist auf die Kanal- und Rohrreinigung in Wien, Niederösterreich und dem Burgenland spezialisiert. Wir bieten transparente, faire Preise und sind innerhalb von 30 Minuten vor Ort. Unsere 24-Stunden-Erreichbarkeit sowie die Möglichkeit der Bar- und Kartenzahlung unterstreichen unseren kundenorientierten Service.</p>
+									</div>
+									<div class="about-premium-points">
+										<span><i class="fa-solid fa-badge-check"></i> Kontakt</span>
+										<span><i class="fa-solid fa-badge-check"></i> Untersuchung</span>
+										<span><i class="fa-solid fa-badge-check"></i> Reinigung</span>
+									</div>
+									<div class="about-premium-actions">
+										<a class="about-premium-phone" href="tel:+4314420059">+4314420059</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 		</div>
 					</div>

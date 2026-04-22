@@ -198,7 +198,7 @@ var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+'/external/googletagmanager/gtm-GTM-M8PBTKZ2.js';f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M8PBTKZ2');</script>
 
 <!-- End Google Tag Manager -->
@@ -208,7 +208,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="apple-touch-icon" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-180x180.png">
 
-<meta name="msapplication-TileImage" content="https://rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
+<meta name="msapplication-TileImage" content="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
 
 <style id="wp-custom-css">
 			.scroll-top{
@@ -483,7 +483,7 @@ Bei RohrFrisch setzen wir auf klare Preisgestaltung und faire Konditionen. Unser
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-c4d4b83 elementor-widget elementor-widget-plumersectiontitle" data-id="c4d4b83" data-element_type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><span class="sub-title subtitle-selector"><img decoding="async" src="https://themeholy.com/wordpress/plumer/wp-content/uploads/2023/04/service_box_2.svg" alt="service_box_2" class="spin">Pricing Plan</span><h2 class="sec-title title-selector">Preise für Rohr- &amp; Abflussreinigung in Wien
+					<div class="title-area-wrap"><div class="title-area mb-30"><span class="sub-title subtitle-selector"><img decoding="async" src="/external/themeholy.com/wordpress/plumer/wp-content/uploads/2023/04/service_box_2.svg" alt="service_box_2" class="spin">Pricing Plan</span><h2 class="sec-title title-selector">Preise für Rohr- &amp; Abflussreinigung in Wien
 </h2></div><p class="desc-selector mt-n2 mb-30">Unsere Rohrreinigung bietet Ihnen transparente und faire Preise, angepasst an den jeweiligen Aufwand, die Tageszeit und die Dringlichkeit. Nachfolgend finden Sie unsere detaillierte Preisübersicht, inklusive aller möglichen Zuschläge und Zusatzleistungen.
 </p></div>				</div>
 				</div>

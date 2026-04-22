@@ -93,13 +93,22 @@ function writePageController(string $path, array $pages): void
     $methods = [];
 
     foreach ($pages as $page) {
-        $methods[] = "    public function {$page['method']}() { return view('{$page['view']}'); }";
+        $methods[] = <<<PHP
+    public function {$page['method']}(): View
+    {
+        return view('{$page['view']}');
+    }
+PHP;
     }
 
     $content = <<<PHP
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Controllers;
+
+use Illuminate\Contracts\View\View;
 
 class PageController extends Controller
 {
@@ -136,6 +145,8 @@ function writeSitemapController(string $path): void
 {
     $content = <<<'PHP'
 <?php
+
+declare(strict_types=1);
 
 namespace App\Http\Controllers;
 

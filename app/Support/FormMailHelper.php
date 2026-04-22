@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Support;
 
 use Illuminate\Http\Request;
@@ -7,14 +9,25 @@ use Illuminate\Support\Arr;
 
 class FormMailHelper
 {
+    public const CONTACT_FORM_KIND = 'contact';
+    public const FOOTER_FORM_KIND = 'footer';
+
+    protected const CONTACT_FIELD_PATTERNS = [
+        'name' => '/^text-/',
+        'email' => '/^email-/',
+        'phone' => '/^tel-/',
+        'service' => '/^menu-/',
+        'message' => '/^textarea-/',
+    ];
+
     public static function buildPayload(Request $request): array
     {
-        $formKind = $request->input('form_kind', 'contact');
+        $formKind = $request->input('form_kind', self::CONTACT_FORM_KIND);
         $sourceUrl = $request->input('source_url', url()->previous());
 
-        if ($formKind === 'footer') {
+        if ($formKind === self::FOOTER_FORM_KIND) {
             return [
-                'form_kind' => 'footer',
+                'form_kind' => self::FOOTER_FORM_KIND,
                 'source_url' => $sourceUrl,
                 'subject' => 'New Footer Email Submission',
                 'name' => null,
@@ -31,7 +44,7 @@ class FormMailHelper
         $contactFields = self::extractContactFields($request);
 
         return [
-            'form_kind' => 'contact',
+            'form_kind' => self::CONTACT_FORM_KIND,
             'source_url' => $sourceUrl,
             'subject' => 'New Website Contact Form Submission',
             'name' => $contactFields['name'],
@@ -51,18 +64,16 @@ class FormMailHelper
 
     public static function extractContactFields(Request $request): array
     {
-        return [
-            'name' => self::firstMatchingInput($request, '/^text-/'),
-            'email' => self::firstMatchingInput($request, '/^email-/'),
-            'phone' => self::firstMatchingInput($request, '/^tel-/'),
-            'service' => self::firstMatchingInput($request, '/^menu-/'),
-            'message' => self::firstMatchingInput($request, '/^textarea-/'),
-        ];
+        return collect(self::CONTACT_FIELD_PATTERNS)
+            ->mapWithKeys(fn (string $pattern, string $field): array => [
+                $field => self::firstMatchingInput($request, $pattern),
+            ])
+            ->all();
     }
 
     public static function rules(string $formKind): array
     {
-        if ($formKind === 'footer') {
+        if ($formKind === self::FOOTER_FORM_KIND) {
             return [
                 'form_fields.email' => ['required', 'email'],
                 'source_url' => ['nullable', 'string'],

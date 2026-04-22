@@ -1,0 +1,22 @@
+{
+  "url": "https://example.com/",
+  "final_url": "https://example.com/",
+  "redirects": [],
+  "resources": [
+    {
+      "type": "document",
+      "url": "https://example.com/",
+      "domain": "example.com",
+      "is_external": false
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "external": 0,
+    "same_origin": 1,
+    "by_type": {
+      "document": 1
+    },
+    "external_by_type": {}
+  }
+}

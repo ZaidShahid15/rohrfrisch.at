@@ -205,7 +205,7 @@ var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+'/external/googletagmanager/gtm-GTM-M8PBTKZ2.js';f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M8PBTKZ2');</script>
 
 <!-- End Google Tag Manager -->
@@ -215,7 +215,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="apple-touch-icon" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-180x180.png">
 
-<meta name="msapplication-TileImage" content="https://rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
+<meta name="msapplication-TileImage" content="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
 
 <style id="wp-custom-css">
 			.scroll-top{
@@ -229,6 +229,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</style>
 
 <style id="plumer_opt-dynamic-css" title="dynamic-css" class="redux-options-output">.breadcumb-wrapper{background-repeat:no-repeat;background-position:center center;background-image:url(/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/breadcumb-bg.jpg);background-size:cover;}.footer-copyright{background-color:#1b1b1b;}</style>
+<style>
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-e84c596 {
+        clear: both;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .elementor-element.elementor-element-e84c596 .elementor-widget-container,
+    .elementor-element.elementor-element-e84c596 p,
+    .elementor-element.elementor-element-e84c596 p span {
+        display: block;
+        width: 100%;
+        margin: 0;
+        line-height: 1.6;
+        white-space: normal;
+        overflow-wrap: break-word;
+        text-align: left;
+    }
+}
+</style>
 @endverbatim
 @endsection
 
@@ -1968,7 +1989,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-e84c596 e-con-full e-flex e-con e-child" data-id="e84c596" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-7dbc6dc elementor-widget elementor-widget-text-editor" data-id="7dbc6dc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #ffffff;">Copyright ©2025 Rohrfrisch. All Rights Reserved</span></p>								</div>
+									<p><span style="color: #ffffff;">Copyright &copy;2025 Rohrfrisch. All Rights Reserved</span></p>								</div>
 				</div>
 				</div>
 				</div>

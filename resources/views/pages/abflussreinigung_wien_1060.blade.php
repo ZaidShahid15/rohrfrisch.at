@@ -204,7 +204,7 @@ var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+'/external/googletagmanager/gtm-GTM-M8PBTKZ2.js';f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M8PBTKZ2');</script>
 
 <!-- End Google Tag Manager -->
@@ -214,7 +214,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="apple-touch-icon" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-180x180.png">
 
-<meta name="msapplication-TileImage" content="https://rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
+<meta name="msapplication-TileImage" content="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/cropped-Untitled_design__52_-removebg-preview-270x270.png">
 
 <style id="wp-custom-css">
 			.scroll-top{
@@ -684,7 +684,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-7ef0864 elementor-widget elementor-widget-text-editor" data-id="7ef0864" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div class="title-area mb-35"><h3><span style="color: #ffffff;"><b>Kontaktieren Sie uns – Ihr Experte für Abflussreinigung Wien 1060</b></span></h3><p><span style="color: #ffffff;"><span style="font-weight: 400;"><span data-sheets-root="1">RohrFrisch</span> ist Ihr zuverlässiger Partner für </span><b>Abflussreinigung</b><span style="font-weight: 400;"> in </span><b>Wien 1060</b><span style="font-weight: 400;"> und Umgebung. Zögern Sie nicht, uns bei Fragen, Anliegen oder zur Terminvereinbarung zu kontaktieren. Unsere freundlichen Mitarbeiter stehen Ihnen gerne zur Verfügung.</span></span></p><p><span style="color: #ffffff;"><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/15.0.3/svg/1f4de.svg" alt="📞"> <b>Telefon</b>: +43 660 2467077</span><br><span style="color: #ffffff;"><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/15.0.3/svg/1f4cd.svg" alt="📍"> <b>Adresse</b>: Wien Austria</span><br><span style="color: #ffffff;"><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/15.0.3/svg/1f4e7.svg" alt="📧"> <b>E-Mail</b>: info@rohrfrisch</span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;">Sie können uns rund um die Uhr telefonisch erreichen oder unser </span><b>Online-Kontaktformular</b><span style="font-weight: 400;"> nutzen, um Anfragen schnell und bequem zu senden. Egal ob Notfälle oder Routinearbeiten – wir sind für Sie da und bieten schnelle, professionelle Hilfe. Vertrauen Sie auf unsere Erfahrung und lassen Sie uns Ihre </span><b>Abflussprobleme</b><span style="font-weight: 400;"> lösen.</span></span></p></div>								</div>
+									<div class="title-area mb-35"><h3><span style="color: #ffffff;"><b>Kontaktieren Sie uns – Ihr Experte für Abflussreinigung Wien 1060</b></span></h3><p><span style="color: #ffffff;"><span style="font-weight: 400;"><span data-sheets-root="1">RohrFrisch</span> ist Ihr zuverlässiger Partner für </span><b>Abflussreinigung</b><span style="font-weight: 400;"> in </span><b>Wien 1060</b><span style="font-weight: 400;"> und Umgebung. Zögern Sie nicht, uns bei Fragen, Anliegen oder zur Terminvereinbarung zu kontaktieren. Unsere freundlichen Mitarbeiter stehen Ihnen gerne zur Verfügung.</span></span></p><p><span style="color: #ffffff;"><img decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4de.svg" alt="📞"> <b>Telefon</b>: +43 660 2467077</span><br><span style="color: #ffffff;"><img decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4cd.svg" alt="📍"> <b>Adresse</b>: Wien Austria</span><br><span style="color: #ffffff;"><img decoding="async" class="emoji" role="img" draggable="false" src="/external/s.w.org/images/core/emoji/15.0.3/svg/1f4e7.svg" alt="📧"> <b>E-Mail</b>: info@rohrfrisch</span></p><p><span style="color: #ffffff;"><span style="font-weight: 400;">Sie können uns rund um die Uhr telefonisch erreichen oder unser </span><b>Online-Kontaktformular</b><span style="font-weight: 400;"> nutzen, um Anfragen schnell und bequem zu senden. Egal ob Notfälle oder Routinearbeiten – wir sind für Sie da und bieten schnelle, professionelle Hilfe. Vertrauen Sie auf unsere Erfahrung und lassen Sie uns Ihre </span><b>Abflussprobleme</b><span style="font-weight: 400;"> lösen.</span></span></p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-568d38c elementor-widget elementor-widget-shortcode" data-id="568d38c" data-element_type="widget" data-widget_type="shortcode.default">
 				<div class="elementor-widget-container">
