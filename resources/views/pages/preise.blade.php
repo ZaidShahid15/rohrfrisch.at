@@ -219,6 +219,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	display: none;
 }
 
+.preise-pricing-row > [class*="col-"] {
+	display: flex;
+}
+
+.preise-pricing-row .price-card {
+	width: 100%;
+	height: 100%;
+}
+
+.preise-pricing-row .box-title,
+.preise-pricing-row .price-card_price .duration,
+.preise-pricing-row .price-card_content,
+.preise-pricing-row .price-card_content p,
+.preise-pricing-row .price-card_content li {
+	white-space: normal;
+	overflow-wrap: break-word;
+}
+
+.elementor-element-10ce026 .row,
+.elementor-element-31b4d59 .row {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.preise-pricing-row.preise-pricing-row-bottom > .col-md-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.preise-pricing-row.preise-pricing-row-bottom > .col-md-6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
 		</style>
 
 <style id="plumer_opt-dynamic-css" title="dynamic-css" class="redux-options-output">.breadcumb-wrapper{background-repeat:no-repeat;background-position:center center;background-image:url(/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/breadcumb-bg.jpg);background-size:cover;}.footer-copyright{background-color:#1b1b1b;}</style>
@@ -551,6 +588,80 @@ Bei RohrFrisch setzen wir auf klare Preisgestaltung und faire Konditionen. Unser
 		</div>
 					</div>
 		</section>
+				<div class="preise-pricing-rebuild">
+					<div class="row gy-4 justify-content-center preise-pricing-row">
+						<div class="col-xl-4 col-md-6">
+							<div class="price-card">
+								<h3 class="box-title">Normale Gesch&auml;ftszeiten f&uuml;r Rohr- &amp; Abflussreinigung</h3>
+								<h4 class="price-card_price"><span class="duration">Arbeitszeit: Montag bis Freitag von 07:00 Uhr bis 16:00 Uhr</span></h4>
+								<div class="price-card_content">
+									<p><span style="font-weight: 400">&#10004; </span><b>Fixpreis f&uuml;r die 1. Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 150,00 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Jede weitere halbe Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 75,00 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Fahrtkostenpauschale:</b><span style="font-weight: 400"> &euro; 50,00 zzgl. </span><b>MwSt</b></p>
+									<p><span style="font-weight: 400">&#10004; </span><b>Anfahrt = Arbeitszeit</b></p>
+									<a href="tel:+4314420059" class="themeholy-btn">Jetzt anrufen</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-6">
+							<div class="price-card active">
+								<h3 class="box-title">Abendzuschlag: 50 % Aufschlag</h3>
+								<h4 class="price-card_price"><span class="duration">Montag bis Freitag von 16:00 Uhr bis 18:00 Uhr</span></h4>
+								<div class="price-card_content">
+									<p><span style="font-weight: 400">&#10004; </span><b>Fixpreis f&uuml;r die 1. Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 225,00 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Jede weitere halbe Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 112,50 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Fahrtkostenpauschale:</b><span style="font-weight: 400"> &euro; 50,00 zzgl. </span><b>MwSt</b></p>
+									<p><span style="font-weight: 400">&#10004; </span><b>Anfahrt = Arbeitszeit</b></p>
+									<a href="tel:+4314420059" class="themeholy-btn">Jetzt anrufen</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-6">
+							<div class="price-card">
+								<h3 class="box-title">Nachtzuschlag: 100 % Aufschlag</h3>
+								<h4 class="price-card_price"><span class="duration">Montag bis Freitag von 19:00 Uhr bis 07:00 Uhr</span></h4>
+								<div class="price-card_content">
+									<p><span style="font-weight: 400">&#10004; </span><b>Fixpreis f&uuml;r die 1. Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 300,00 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Jede weitere halbe Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 150,00 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Fahrtkostenpauschale:</b><span style="font-weight: 400"> &euro; 50,00 zzgl. </span><b>MwSt</b></p>
+									<p><span style="font-weight: 400">&#10004; </span><b>Anfahrt = Arbeitszeit</b></p>
+									<a href="tel:+4314420059" class="themeholy-btn">Jetzt anrufen</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row gy-4 justify-content-center preise-pricing-row preise-pricing-row-bottom">
+						<div class="col-md-6">
+							<div class="price-card">
+								<h3 class="box-title">Wochenende: 100 % Aufschlag</h3>
+								<h4 class="price-card_price"><span class="duration">G&uuml;ltig f&uuml;r alle Arbeiten am Samstag &amp; Sonntag</span></h4>
+								<div class="price-card_content">
+									<p><span style="font-weight: 400">&#10004; </span><b>Fixpreis f&uuml;r die 1. Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 300,00 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Jede weitere halbe Arbeitsstunde:</b><span style="font-weight: 400"> &euro; 150,00 zzgl. </span><b>MwSt</b><br><span style="font-weight: 400">&#10004; </span><b>Fahrtkostenpauschale:</b><span style="font-weight: 400"> &euro; 50,00 zzgl. </span><b>MwSt</b></p>
+									<p><span style="font-weight: 400">&#10004; </span><b>Anfahrt = Arbeitszeit</b></p>
+									<a href="tel:+4314420059" class="themeholy-btn">Jetzt anrufen</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="price-card">
+								<h3 class="box-title">Kamerainspektion: &euro; 250,00 zzgl. MwSt</h3>
+								<h4 class="price-card_price"><span class="duration">Maschineneinsatz:</span></h4>
+								<div class="price-card_content">
+									<ul>
+										<li style="font-weight: 400"><b>Kleine Motorspirale:</b><span style="font-weight: 400"> &euro; 200,00 zzgl. </span><b>MwSt</b><span style="font-weight: 400"> (bis 3 m Rohrl&auml;nge inklusive, jeder weitere Meter: &euro; 20,00 zzgl. </span><b>MwSt</b><span style="font-weight: 400">)</span></li>
+										<li style="font-weight: 400"><b>Gro&szlig;e Motorspirale:</b><span style="font-weight: 400"> &euro; 300,00 zzgl. </span><b>MwSt</b><span style="font-weight: 400"> (bis 3 m Rohrl&auml;nge inklusive, jeder weitere Meter: &euro; 30,00 zzgl. </span><b>MwSt</b><span style="font-weight: 400">)</span></li>
+									</ul>
+									<p><b>Hochdruckreinigung mit Bedienpersonal:</b></p>
+									<ul>
+										<li style="font-weight: 400"><b>Standard-Gesch&auml;ftszeiten:</b><span style="font-weight: 400"> &euro; 400,00 zzgl. </span><b>MwSt</b></li>
+										<li style="font-weight: 400"><b>Nach 17:00 Uhr:</b><span style="font-weight: 400"> Zuschl&auml;ge wie oben beschrieben</span></li>
+										<li style="font-weight: 400"><b>Zus&auml;tzlich pro Meter:</b><span style="font-weight: 400"> &euro; 25,00 zzgl. </span><b>MwSt</b></li>
+									</ul>
+									<p><b>Weitere Kosten:</b></p>
+									<ul>
+										<li style="font-weight: 400"><b>Schmutzzulage:</b><span style="font-weight: 400"> &euro; 70,00 bis &euro; 100,00 zzgl. </span><b>MwSt</b><span style="font-weight: 400"> (abh&auml;ngig vom Verschmutzungsgrad)</span></li>
+										<li><b>Rohrreinigungsmittel:</b><span style="font-weight: 400"> &euro; 60,00 zzgl. </span><b>MwSt</b><span style="font-weight: 400"> pro Liter</span></li>
+									</ul>
+									<a href="tel:+4314420059" class="themeholy-btn">Jetzt anrufen</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-00f5759 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="00f5759" data-element_type="section" data-settings='{"background_background":"classic"}'>
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a6eefab" data-id="a6eefab" data-element_type="column">
