@@ -126,6 +126,7 @@
     <script>
         window.addEventListener('DOMContentLoaded', function () {
             if (document.querySelector('main, [role="main"]')) {
+                applyAccessibleLabels();
                 return;
             }
 
@@ -133,6 +134,48 @@
 
             if (mainTarget) {
                 mainTarget.setAttribute('role', 'main');
+            }
+
+            applyAccessibleLabels();
+
+            function applyAccessibleLabels() {
+                var controls = document.querySelectorAll('form input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="reset"]), form select, form textarea');
+
+                controls.forEach(function (control) {
+                    if (control.labels && control.labels.length > 0) {
+                        return;
+                    }
+
+                    if (control.hasAttribute('aria-label') || control.hasAttribute('aria-labelledby') || control.hasAttribute('title')) {
+                        return;
+                    }
+
+                    var label = control.getAttribute('placeholder')
+                        || control.getAttribute('name')
+                        || control.getAttribute('id')
+                        || '';
+
+                    label = label
+                        .replace(/^form_fields\[/i, '')
+                        .replace(/\]$/i, '')
+                        .replace(/^menu-\d+$/i, 'Service')
+                        .replace(/[_-]+/g, ' ')
+                        .trim();
+
+                    if (!label) {
+                        if (control.tagName === 'SELECT') {
+                            label = 'Service';
+                        } else if (control.tagName === 'TEXTAREA') {
+                            label = 'Nachricht';
+                        } else if ((control.getAttribute('type') || '').toLowerCase() === 'email') {
+                            label = 'Email';
+                        } else {
+                            label = 'Formularfeld';
+                        }
+                    }
+
+                    control.setAttribute('aria-label', label);
+                });
             }
         });
     </script>
