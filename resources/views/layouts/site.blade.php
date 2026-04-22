@@ -3,13 +3,88 @@
 @php
     $pageTitle = trim($__env->yieldContent('title', 'RohrFrisch'));
     $pageHead = trim($__env->yieldContent('head'));
+    $pageScripts = trim($__env->yieldContent('scripts'));
     $defaultDescription = trim($__env->yieldContent(
         'meta_description',
         'RohrFrisch bietet Abflussreinigung, Rohrreinigung und Kanalservice in Wien, Niederoesterreich und Burgenland.'
     ));
     $canonicalUrl = url()->current();
+    $assetIdsToStrip = [
+        'jquery-migrate-js',
+        'perfect-scrollbar-css',
+        'perfect-scrollbar-wpc-css',
+        'woosq-feather-css',
+        'woosq-frontend-css',
+        'perfect-scrollbar-js',
+        'woosq-frontend-js',
+    ];
+    $duplicateLinkHrefs = [];
+    $duplicateScriptSrcs = [];
+
+    $removeTaggedAssets = static function (string $markup, array $assetIds): string {
+        foreach ($assetIds as $assetId) {
+            $markup = preg_replace(
+                '#\s*<link\b(?=[^>]*\bid="' . preg_quote($assetId, '#') . '")[^>]*>\s*#i',
+                PHP_EOL,
+                $markup
+            ) ?? $markup;
+
+            $markup = preg_replace(
+                '#\s*<script\b(?=[^>]*\bid="' . preg_quote($assetId, '#') . '")(?![^>]*\bsrc=)[^>]*>.*?</script>\s*#is',
+                PHP_EOL,
+                $markup
+            ) ?? $markup;
+
+            $markup = preg_replace(
+                '#\s*<script\b(?=[^>]*\bid="' . preg_quote($assetId, '#') . '")[^>]*\bsrc="[^"]*"[^>]*>\s*</script>\s*#i',
+                PHP_EOL,
+                $markup
+            ) ?? $markup;
+        }
+
+        return $markup;
+    };
+
+    $dedupeLinkHrefs = static function (string $markup) use (&$duplicateLinkHrefs): string {
+        return preg_replace_callback(
+            '#<link\b(?=[^>]*\bhref="([^"]+)")[^>]*>#i',
+            static function (array $matches) use (&$duplicateLinkHrefs): string {
+                $href = $matches[1];
+
+                if (isset($duplicateLinkHrefs[$href])) {
+                    return '';
+                }
+
+                $duplicateLinkHrefs[$href] = true;
+
+                return $matches[0];
+            },
+            $markup
+        ) ?? $markup;
+    };
+
+    $dedupeScriptSrcs = static function (string $markup) use (&$duplicateScriptSrcs): string {
+        return preg_replace_callback(
+            '#<script\b(?=[^>]*\bsrc="([^"]+)")[^>]*>\s*</script>#i',
+            static function (array $matches) use (&$duplicateScriptSrcs): string {
+                $src = $matches[1];
+
+                if (isset($duplicateScriptSrcs[$src])) {
+                    return '';
+                }
+
+                $duplicateScriptSrcs[$src] = true;
+
+                return $matches[0];
+            },
+            $markup
+        ) ?? $markup;
+    };
 
     if ($pageHead !== '') {
+        $pageHead = $removeTaggedAssets($pageHead, $assetIdsToStrip);
+        $pageHead = $dedupeLinkHrefs($pageHead);
+
         $pageHead = preg_replace_callback(
             '#<link\s+rel="canonical"\s+href="([^"]*)"\s*/?>#i',
             static function (array $matches) use ($canonicalUrl): string {
@@ -35,6 +110,16 @@
         if (! preg_match('#<link\s+rel="canonical"#i', $pageHead)) {
             $pageHead .= PHP_EOL . '<link rel="canonical" href="' . e($canonicalUrl) . '">';
         }
+    }
+
+    if ($pageScripts !== '') {
+        $pageScripts = $removeTaggedAssets($pageScripts, $assetIdsToStrip);
+        $pageScripts = preg_replace(
+            '#\s*<script\b(?=[^>]*\bid="woosq-frontend-js-extra")(?![^>]*\bsrc=)[^>]*>.*?</script>\s*#is',
+            PHP_EOL,
+            $pageScripts
+        ) ?? $pageScripts;
+        $pageScripts = $dedupeScriptSrcs($pageScripts);
     }
 @endphp
 <head>
@@ -179,7 +264,7 @@
             }
         });
     </script>
-    @yield('scripts')
+    {!! $pageScripts !!}
     <script>
         window.addEventListener('load', function () {
             if (!window.jQuery || !window.jQuery.fn || typeof window.jQuery.fn.slick !== 'function') {
