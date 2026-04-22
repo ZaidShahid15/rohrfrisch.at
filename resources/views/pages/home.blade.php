@@ -16,7 +16,7 @@ class="home wp-singular page-template page-template-elementor_header_footer page
 
 <meta name="robots" content="index, follow">
 
-<link rel="preload" as="image" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png" fetchpriority="high">
+<link rel="preload" as="image" href="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-home.webp" type="image/webp" fetchpriority="high">
 
 <link rel="dns-prefetch" href="/site-clone/fonts.googleapis.com/asset">
 
@@ -257,7 +257,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-922c3fb elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="922c3fb" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/">
-							<img decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">								</a>
+							<picture>
+								<source srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3-home.webp" type="image/webp">
+								<img decoding="async" width="200" height="70" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/01/RohrFrisch-200-x-70-px-3.png" class="attachment-large size-large wp-image-2497" alt="rohrfrisch">
+							</picture>								</a>
 															</div>
 				</div>
 				</div>
@@ -318,7 +321,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-dbba2f3 e-con-full e-flex e-con e-child" data-id="dbba2f3" data-element_type="container">
 				<div class="elementor-element elementor-element-d51aeee elementor-widget elementor-widget-image" data-id="d51aeee" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="500" height="378" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png" class="attachment-large size-large wp-image-5026" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png 500w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-300x227.png 300w" sizes="(max-width: 500px) 100vw, 500px">															</div>
+															<picture>
+																<source srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-home.webp" type="image/webp">
+																<img fetchpriority="high" decoding="async" width="500" height="378" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png" class="attachment-large size-large wp-image-5026" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-home.webp 500w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png 500w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-300x227.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+															</picture>															</div>
 				</div>
 				<div class="elementor-element elementor-element-88abfed elementor-widget__width-initial elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="88abfed" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
@@ -376,7 +382,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-99dd5df elementor-widget elementor-widget-image" data-id="99dd5df" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="500" height="378" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png" class="attachment-large size-large wp-image-5026" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png 500w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-300x227.png 300w" sizes="(max-width: 500px) 100vw, 500px">															</div>
+															<picture>
+																<source srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-home.webp" type="image/webp">
+																<img fetchpriority="high" decoding="async" width="500" height="378" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png" class="attachment-large size-large wp-image-5026" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-home.webp 500w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667.png 500w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/04/Design-ohne-Titel-2025-04-13T144932.867-e1745403522667-300x227.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+															</picture>															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-b88a42a e-con-full e-flex e-con e-child" data-id="b88a42a" data-element_type="container">
