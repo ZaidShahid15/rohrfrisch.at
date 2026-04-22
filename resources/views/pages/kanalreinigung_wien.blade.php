@@ -1,6 +1,6 @@
-@extends('layouts.site')
+﻿@extends('layouts.site')
 
-@section('title', 'Kanalreinigung Wien – RohrFrisch')
+@section('title', 'Kanalreinigung Wien &ndash; RohrFrisch')
 
 @section('body_attributes')
 class="wp-singular page-template page-template-elementor_header_footer page page-id-5286 wp-custom-logo wp-embed-responsive wp-theme-plumer theme-plumer woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-5286"
@@ -19,9 +19,9 @@ class="wp-singular page-template page-template-elementor_header_footer page page
 
 <link rel="dns-prefetch" href="/site-clone/fonts.googleapis.com/asset">
 
-<link rel="alternate" type="application/rss+xml" title="RohrFrisch » Feed" href="https://rohrfrisch.at/feed/">
+<link rel="alternate" type="application/rss+xml" title="RohrFrisch &raquo; Feed" href="https://rohrfrisch.at/feed/">
 
-<link rel="alternate" type="application/rss+xml" title="RohrFrisch » Comments Feed" href="https://rohrfrisch.at/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="RohrFrisch &raquo; Comments Feed" href="https://rohrfrisch.at/comments/feed/">
 
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://rohrfrisch.at/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frohrfrisch.at%2Fkanalreinigung-wien%2F">
 
@@ -261,7 +261,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<ul id="menu-1-b449fd8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2119"><a href="/" class="elementor-item">Startseite</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123"><a href="/dienstleistungen/" class="elementor-item">Dienstleistungen</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="/preise/" class="elementor-item">Preise</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/" class="elementor-item">Über uns</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/" class="elementor-item">&Uuml;ber uns</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="/kontakt/" class="elementor-item">Kontakt</a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -270,7 +270,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<ul id="menu-2-b449fd8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2119"><a href="/" class="elementor-item" tabindex="-1">Startseite</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123"><a href="/dienstleistungen/" class="elementor-item" tabindex="-1">Dienstleistungen</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="/preise/" class="elementor-item" tabindex="-1">Preise</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/" class="elementor-item" tabindex="-1">Über uns</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2303"><a href="/" class="elementor-item" tabindex="-1">&Uuml;ber uns</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="/kontakt/" class="elementor-item" tabindex="-1">Kontakt</a></li>
 </ul>			</nav>
 						</div>
@@ -317,13 +317,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-cef668f e-con-full elementor-hidden-desktop elementor-hidden-tablet e-flex e-con e-child" data-id="cef668f" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-3fa22e0 elementor-widget elementor-widget-heading" data-id="3fa22e0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default"><span style="color:#e83a15">Kanalreinigung Wien</span> – Ihr Profi für schnelle &amp; zuverlässige Hilfe</h1>				</div>
+					<h1 class="elementor-heading-title elementor-size-default"><span style="color:#e83a15">Kanalreinigung Wien</span> &ndash; Ihr Profi f&uuml;r schnelle &amp; zuverl&auml;ssige Hilfe</h1>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-4d949ca e-con-full e-flex e-con e-child" data-id="4d949ca" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-5cc02f7 elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="5cc02f7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default"><span style="color:#e83a15">Kanalreinigung Wien</span> – Ihr Profi für schnelle &amp; zuverlässige Hilfe</h1>				</div>
+					<h1 class="elementor-heading-title elementor-size-default"><span style="color:#e83a15">Kanalreinigung Wien</span> &ndash; Ihr Profi f&uuml;r schnelle &amp; zuverl&auml;ssige Hilfe</h1>				</div>
 				</div>
 				<div class="elementor-element elementor-element-93d16f0 elementor-widget elementor-widget-text-editor" data-id="93d16f0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -468,7 +468,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<li class="elementor-icon-list-item elementor-inline-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Bar- &amp; Kartenzahlung möglich</span>
+										<span class="elementor-icon-list-text">Bar- &amp; Kartenzahlung m&ouml;glich</span>
 									</li>
 						</ul>
 						</div>
@@ -483,12 +483,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-eb3607e e-con-full e-flex e-con e-child" data-id="eb3607e" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-00f5c5d elementor-widget elementor-widget-heading" data-id="00f5c5d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">  Kanal verstopft in Wien? <span style="color:#e83a15">rohrfrisch.at löst das Problem sofort
+					<h2 class="elementor-heading-title elementor-size-default">  Kanal verstopft in Wien? <span style="color:#e83a15">rohrfrisch.at l&ouml;st das Problem sofort
 </span></h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-1785ac9 elementor-widget elementor-widget-text-editor" data-id="1785ac9" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">Ein verstopfter Kanal kann schnell zu ernsten Schäden führen:</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">unangenehme Gerüche, stehendes Wasser oder gefährlicher Rückstau im Kanal. </span><span style="font-weight: 400;">Die </span><b>professionelle Kanalreinigung in Wien von rohrfrisch.at</b><span style="font-weight: 400;"> sorgt für eine schnelle, gründliche und nachhaltige Lösung – bevor hohe Folgekosten entstehen. </span></p><p><span style="font-weight: 400;">Als erfahrene </span><b>Kanalreinigung Firma in Wien</b><span style="font-weight: 400;"> betreut </span><b>rohrfrisch.at</b><span style="font-weight: 400;">:</span></p>								</div>
+									<p><span style="font-weight: 400;">Ein verstopfter Kanal kann schnell zu ernsten Sch&auml;den f&uuml;hren:</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">unangenehme Ger&uuml;che, stehendes Wasser oder gef&auml;hrlicher R&uuml;ckstau im Kanal. </span><span style="font-weight: 400;">Die </span><b>professionelle Kanalreinigung in Wien von rohrfrisch.at</b><span style="font-weight: 400;"> sorgt f&uuml;r eine schnelle, gr&uuml;ndliche und nachhaltige L&ouml;sung &ndash; bevor hohe Folgekosten entstehen. </span></p><p><span style="font-weight: 400;">Als erfahrene </span><b>Kanalreinigung Firma in Wien</b><span style="font-weight: 400;"> betreut </span><b>rohrfrisch.at</b><span style="font-weight: 400;">:</span></p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-e72f0d6 elementor-mobile-align-start elementor-widget__width-inherit elementor-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e72f0d6" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
@@ -496,12 +496,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-far-check-square" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zm0 400H48V80h352v352zm-35.864-241.724L191.547 361.48c-4.705 4.667-12.303 4.637-16.97-.068l-90.781-91.516c-4.667-4.705-4.637-12.303.069-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l59.792 60.277 141.352-140.216c4.705-4.667 12.303-4.637 16.97.068l22.536 22.718c4.667 4.706 4.637 12.304-.068 16.971z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Kurze Erklärung der Risiken (Gerüche, stehendes Wasser, Rückstau)</span>
+										<span class="elementor-icon-list-text">Kurze Erkl&auml;rung der Risiken (Ger&uuml;che, stehendes Wasser, R&uuml;ckstau)</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-far-check-square" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zm0 400H48V80h352v352zm-35.864-241.724L191.547 361.48c-4.705 4.667-12.303 4.637-16.97-.068l-90.781-91.516c-4.667-4.705-4.637-12.303.069-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l59.792 60.277 141.352-140.216c4.705-4.667 12.303-4.637 16.97.068l22.536 22.718c4.667 4.706 4.637 12.304-.068 16.971z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Betonung auf schnelle &amp; nachhaltige Lösung</span>
+										<span class="elementor-icon-list-text">Betonung auf schnelle &amp; nachhaltige L&ouml;sung</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
@@ -528,7 +528,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-fdb86bf e-con-full e-flex e-con e-child" data-id="fdb86bf" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-ed442e6 elementor-widget elementor-widget-heading" data-id="ed442e6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Kanalreinigung Wien –<span style="color:#e83a15"> Zuverlässig, sauber &amp; nachhaltig
+					<h2 class="elementor-heading-title elementor-size-default">Kanalreinigung Wien &ndash;<span style="color:#e83a15"> Zuverl&auml;ssig, sauber &amp; nachhaltig
 </span> mit rohrfrisch.at
  </h2>				</div>
 				</div>
@@ -538,7 +538,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-30b9f88 elementor-widget elementor-widget-heading" data-id="30b9f88" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h5 class="elementor-heading-title elementor-size-default">Typische Ursachen für Kanalprobleme:
+					<h5 class="elementor-heading-title elementor-size-default">Typische Ursachen f&uuml;r Kanalprobleme:
 
  </h5>				</div>
 				</div>
@@ -553,7 +553,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Hygieneartikel &amp; Fremdkörper</span>
+										<span class="elementor-icon-list-text">Hygieneartikel &amp; Fremdk&ouml;rper</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
@@ -609,7 +609,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-10f2b29 elementor-widget elementor-widget-text-editor" data-id="10f2b29" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">Kanalprobleme halten sich nicht an Uhrzeiten.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Der </span><b>Kanalreinigung Notdienst von rohrfrisch.at in Wien</b><span style="font-weight: 400;"> ist rund um die Uhr erreichbar – auch nachts, an Wochenenden und Feiertagen.</span></p>								</div>
+									<p><span style="font-weight: 400;">Kanalprobleme halten sich nicht an Uhrzeiten.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Der </span><b>Kanalreinigung Notdienst von rohrfrisch.at in Wien</b><span style="font-weight: 400;"> ist rund um die Uhr erreichbar &ndash; auch nachts, an Wochenenden und Feiertagen.</span></p>								</div>
 				</div>
 				</div>
 					</div>
@@ -749,14 +749,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-69471ea elementor-widget elementor-widget-plumersectiontitle" data-id="69471ea" data-element_type="widget" data-e-type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area"><h2 class="sec-title title-selector">So läuft eine professionelle Kanalreinigung bei rohrfrisch.at ab</h2></div></div>				</div>
+					<div class="title-area-wrap"><div class="title-area"><h2 class="sec-title title-selector">So l&auml;uft eine professionelle Kanalreinigung bei rohrfrisch.at ab</h2></div></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-9909a8c elementor-widget elementor-widget-timeline-widget-addon" data-id="9909a8c" data-element_type="widget" data-e-type="widget" data-widget_type="timeline-widget-addon.default">
 				<div class="elementor-widget-container">
 					<!-- ========= Timeline Widget Addon For Elementor 1.6.24 ========= -->
 <div id="twae-wrapper-9909a8c" class="twae-vertical twae-wrapper  twae-both-sided">   
     <div class="twae-start"></div>    
-    <div id="twea-timeline-9909a8c" class="twae-timeline"><!-- Start of Story Repeater Content --><div id="story-1bd15e2" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 1</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Kontaktaufnahme</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_2.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Telefonisch oder online � sofortige Ersteinsch�tzung durch rohrfrisch.at.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-054a470" class="twae-story twae-repeater-item twae-story-left twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 2</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Untersuchung</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_2.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Analyse des Kanalsystems, bei Bedarf per Kamera.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-174bf61" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 3</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Befundaufnahme</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_3.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Feststellung von Ursache &amp; Ausma� der Verstopfung.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-f014d82" class="twae-story twae-repeater-item twae-story-left twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 4</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title"> Methodenauswahl</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p data-start="3130" data-end="3224"><span style="font-weight: 400">Hochdrucksp�lung, mechanische Reinigung oder Spezialverfahren.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-4822977" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 5</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Kanalreinigung</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="50" height="50" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_feature_3.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Gr�ndliche &amp; schonende Reinigung aller betroffenen Leitungen.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-4dec2df" class="twae-story twae-repeater-item twae-story-left twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 6</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title"> Abschlusskontrolle</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="150" height="150" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-150x150.webp" class="attachment-thumbnail size-thumbnail" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-150x150.webp 150w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-300x300.webp 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-768x768.webp 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-85x85.webp 85w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-80x80.webp 80w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-600x600.webp 600w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-100x100.webp 100w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-460x460.webp 460w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM.webp 1024w" sizes="(max-width: 150px) 100vw, 150px"></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Sicherstellung eines freien, funktionierenden Kanals.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-a54b8ba" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 7</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Beratung</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="150" height="150" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-150x150.webp" class="attachment-thumbnail size-thumbnail" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-150x150.webp 150w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-300x300.webp 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-85x85.webp 85w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-80x80.webp 80w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-100x100.webp 100w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-460x460.webp 460w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview.webp 500w" sizes="(max-width: 150px) 100vw, 150px"></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Tipps zur Vermeidung zuk?nftiger Kanalverstopfungen</span></p></div></div></div></div>
+    <div id="twea-timeline-9909a8c" class="twae-timeline"><!-- Start of Story Repeater Content --><div id="story-1bd15e2" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 1</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Kontaktaufnahme</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_2.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Telefonisch oder online – sofortige Ersteinschätzung durch rohrfrisch.at.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-054a470" class="twae-story twae-repeater-item twae-story-left twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 2</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Untersuchung</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_2.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Analyse des Kanalsystems, bei Bedarf per Kamera.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-174bf61" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 3</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Befundaufnahme</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/05/choose_feature_3.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Feststellung von Ursache &amp; Ausmaß der Verstopfung.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-f014d82" class="twae-story twae-repeater-item twae-story-left twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 4</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title"> Methodenauswahl</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="60" height="60" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/contact_2_3.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p data-start="3130" data-end="3224"><span style="font-weight: 400">Hochdruckspülung, mechanische Reinigung oder Spezialverfahren.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-4822977" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 5</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Kanalreinigung</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="50" height="50" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_feature_3.svg" class="attachment-thumbnail size-thumbnail" alt=""></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Gründliche &amp; schonende Reinigung aller betroffenen Leitungen.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-4dec2df" class="twae-story twae-repeater-item twae-story-left twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 6</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title"> Abschlusskontrolle</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="150" height="150" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-150x150.webp" class="attachment-thumbnail size-thumbnail" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-150x150.webp 150w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-300x300.webp 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-768x768.webp 768w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-85x85.webp 85w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-80x80.webp 80w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-600x600.webp 600w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-100x100.webp 100w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM-460x460.webp 460w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM.webp 1024w" sizes="(max-width: 150px) 100vw, 150px"></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Sicherstellung eines freien, funktionierenden Kanals.</span></p></div></div></div><!-- Start of Story Repeater Content --><div id="story-a54b8ba" class="twae-story twae-repeater-item twae-story-right twae-story-no-icon"><!-- Story Label --><div class="twae-labels"><div class="twae-label-big">SCHRITT 7</div></div><!-- Story Icon --><div class="twae-icon"><i aria-hidden="true" class="far fa-clock"></i></div><!-- Story Arrow --><div class="twae-arrow"></div><!-- Start of Story Content --><div class="twae-content"><!-- Story Title --><div class="twae-title">Beratung</div><!-- Story Image --><div class="twae-media thumbnail"><img loading="lazy" decoding="async" width="150" height="150" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-150x150.webp" class="attachment-thumbnail size-thumbnail" alt="" srcset="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-150x150.webp 150w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-300x300.webp 300w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-85x85.webp 85w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-80x80.webp 80w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-100x100.webp 100w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview-460x460.webp 460w, /site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT_Image_Dec_28__2025__11_22_25_AM-removebg-preview.webp 500w" sizes="(max-width: 150px) 100vw, 150px"></div><!-- Story Description --><div class="twae-description"><p><span style="font-weight: 400">Tipps zur Vermeidung zukünftiger Kanalverstopfungen</span></p></div></div></div></div>
     <div class="twae-end"></div>
     </div><style type="text/css">@media (max-width: 1024px){ .twae-wrapper{--tw-ybx-size: 80px !important;}}@media (max-width: 767px){ .twae-wrapper{--tw-ybx-size: 80px !important}}</style>				</div>
 				</div>
@@ -828,7 +828,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-widget-container">
 					<div class="title-area-wrap"><div class="title-area"><h2 class="sec-title title-selector"><span style="color:#e83a15">Unsere Leistungen
 </span>
- im Überblick – rohrfrisch.at  
+ im &Uuml;berblick &ndash; rohrfrisch.at  
 </h2></div></div>				</div>
 				</div>
 					</div>
@@ -849,9 +849,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-f3daa95 elementor-widget elementor-widget-plumerservice" data-id="f3daa95" data-element_type="widget" data-e-type="widget" data-widget_type="plumerservice.default">
 				<div class="elementor-widget-container">
-					<div class="service_1 slider-shadow arrow-wrap"><div class="row slider-shadow themeholy-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1"><div class="col-md-6 col-xl-4"><div class="service-card"><div class="service-card_icon"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_card_1.svg" alt="service_card_1"></div><div class="service-card_content"><div class="shape1"></div><h3 class="box-title"><a href="/servicedetails/">Kanalreinigung Wien</a></h3><p class="service-card_text">Effektive Entfernung von Verstopfungen für einen schnellen und reibungslosen Wasserfluss in Ihrem Abfluss.</p><a href="/servicedetails/" class="themeholy-btn">Mehr erfahren</a><div class="ripple-shape"><span class="ripple-1"></span><span class="ripple-2"></span><span class="ripple-3"></span><span class="ripple-4"></span><span class="ripple-5"></span><span class="ripple-6"></span></div></div></div></div><div class="col-md-6 col-xl-4"><div class="service-card"><div class="service-card_icon"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_feature_3.svg" alt="service_feature_3"></div><div class="service-card_content"><div class="shape1"></div><h3 class="box-title"><a href="/servicedetails/">Kanal verstopft Wien – Akute Hilfe</a></h3><p class="service-card_text">Schnelle &amp; effektive Beseitigung von Verstopfungen jeder Art.</p><a href="/servicedetails/" class="themeholy-btn">Mehr erfahren</a><div class="ripple-shape"><span class="ripple-1"></span><span class="ripple-2"></span><span class="ripple-3"></span><span class="ripple-4"></span><span class="ripple-5"></span><span class="ripple-6"></span></div></div></div></div><div class="col-md-6 col-xl-4"><div class="service-card"><div class="service-card_icon"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_feature_4.svg" alt="service_feature_4"></div><div class="service-card_content"><div class="shape1"></div><h3 class="box-title"><a href="/servicedetails/">Reparatur von Wasserleitungen</a></h3><p class="service-card_text">Erkennung von Risiken und Vermeidung kostspieliger Wasserschäden.
+					<div class="service_1 slider-shadow arrow-wrap"><div class="row slider-shadow themeholy-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1"><div class="col-md-6 col-xl-4"><div class="service-card"><div class="service-card_icon"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_card_1.svg" alt="service_card_1"></div><div class="service-card_content"><div class="shape1"></div><h3 class="box-title"><a href="/servicedetails/">Kanalreinigung Wien</a></h3><p class="service-card_text">Effektive Entfernung von Verstopfungen f&uuml;r einen schnellen und reibungslosen Wasserfluss in Ihrem Abfluss.</p><a href="/servicedetails/" class="themeholy-btn">Mehr erfahren</a><div class="ripple-shape"><span class="ripple-1"></span><span class="ripple-2"></span><span class="ripple-3"></span><span class="ripple-4"></span><span class="ripple-5"></span><span class="ripple-6"></span></div></div></div></div><div class="col-md-6 col-xl-4"><div class="service-card"><div class="service-card_icon"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_feature_3.svg" alt="service_feature_3"></div><div class="service-card_content"><div class="shape1"></div><h3 class="box-title"><a href="/servicedetails/">Kanal verstopft Wien &ndash; Akute Hilfe</a></h3><p class="service-card_text">Schnelle &amp; effektive Beseitigung von Verstopfungen jeder Art.</p><a href="/servicedetails/" class="themeholy-btn">Mehr erfahren</a><div class="ripple-shape"><span class="ripple-1"></span><span class="ripple-2"></span><span class="ripple-3"></span><span class="ripple-4"></span><span class="ripple-5"></span><span class="ripple-6"></span></div></div></div></div><div class="col-md-6 col-xl-4"><div class="service-card"><div class="service-card_icon"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/service_feature_4.svg" alt="service_feature_4"></div><div class="service-card_content"><div class="shape1"></div><h3 class="box-title"><a href="/servicedetails/">Reparatur von Wasserleitungen</a></h3><p class="service-card_text">Erkennung von Risiken und Vermeidung kostspieliger Wassersch&auml;den.
 </p><a href="/servicedetails/" class="themeholy-btn">Mehr erfahren</a><div class="ripple-shape"><span class="ripple-1"></span><span class="ripple-2"></span><span class="ripple-3"></span><span class="ripple-4"></span><span class="ripple-5"></span><span class="ripple-6"></span></div></div></div></div><div class="col-md-6 col-xl-4"><div class="service-card"><div class="service-card_icon"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2025/12/ChatGPT-Image-Dec-28-2025-11_14_36-AM.webp" alt="ChatGPT Image Dec 28 2025 11_14_36 AM"></div><div class="service-card_content"><div class="shape1"></div><h3 class="box-title"><a href="/servicedetails/">Kamerainspektion &amp; Ursachenanalyse
-</a></h3><p class="service-card_text">Exakte Diagnose ohne unnötige Stemmarbeiten.
+</a></h3><p class="service-card_text">Exakte Diagnose ohne unn&ouml;tige Stemmarbeiten.
 </p><a href="/servicedetails/" class="themeholy-btn">Mehr erfahren</a><div class="ripple-shape"><span class="ripple-1"></span><span class="ripple-2"></span><span class="ripple-3"></span><span class="ripple-4"></span><span class="ripple-5"></span><span class="ripple-6"></span></div></div></div></div></div></div>				</div>
 				</div>
 					</div>
@@ -880,12 +880,12 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 							<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Langjährige Erfahrung</span>
+										<span class="elementor-icon-list-text">Langj&auml;hrige Erfahrung</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text"> Geschulte Fachkräfte</span>
+										<span class="elementor-icon-list-text"> Geschulte Fachkr&auml;fte</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
@@ -900,7 +900,7 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Schnelle Verfügbarkeit in Wien</span>
+										<span class="elementor-icon-list-text">Schnelle Verf&uuml;gbarkeit in Wien</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
@@ -948,11 +948,11 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-53c0798 elementor-widget elementor-widget-plumersectiontitle" data-id="53c0798" data-element_type="widget" data-e-type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><span class="sub-title subtitle-selector">Holen Sie Sich Sofortige Hilfe</span><h2 class="sec-title title-selector">Brauchen Sie Dringende Unterstützung? Kontaktieren Sie Uns Jetzt!</h2></div><p class="desc-selector mt-n2 mb-30">Bei RohrFrisch verstehen wir, dass Rohr- oder Abflussprobleme jederzeit auftreten können und sofortige Hilfe erfordern. Unser Team steht Ihnen rund um die Uhr zur Verfügung, um schnell auf Notfälle zu reagieren und Ihre Probleme zuverlässig zu lösen. Zögern Sie nicht, uns bei dringenden Fällen zu kontaktieren – wir sind jederzeit bereit, Ihnen zu helfen!</p></div>				</div>
+					<div class="title-area-wrap"><div class="title-area mb-30"><span class="sub-title subtitle-selector">Holen Sie Sich Sofortige Hilfe</span><h2 class="sec-title title-selector">Brauchen Sie Dringende Unterst&uuml;tzung? Kontaktieren Sie Uns Jetzt!</h2></div><p class="desc-selector mt-n2 mb-30">Bei RohrFrisch verstehen wir, dass Rohr- oder Abflussprobleme jederzeit auftreten k&ouml;nnen und sofortige Hilfe erfordern. Unser Team steht Ihnen rund um die Uhr zur Verf&uuml;gung, um schnell auf Notf&auml;lle zu reagieren und Ihre Probleme zuverl&auml;ssig zu l&ouml;sen. Z&ouml;gern Sie nicht, uns bei dringenden F&auml;llen zu kontaktieren &ndash; wir sind jederzeit bereit, Ihnen zu helfen!</p></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-f9dacfc elementor-widget elementor-widget-text-editor" data-id="f9dacfc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div class="schedule-wrap"><div class="themeholy-widget-schedule"><h4 class="title">Arbeitszeit:</h4><p class="schedule-info">Mo – Fr8:00 – 18:00 Uhr</p><p class="schedule-info">Samstag 9:00 – 17:00 Uhr</p><p class="schedule-info">Sonntags geschlossen</p></div></div>								</div>
+									<div class="schedule-wrap"><div class="themeholy-widget-schedule"><h4 class="title">Arbeitszeit:</h4><p class="schedule-info">Mo &ndash; Fr8:00 &ndash; 18:00 Uhr</p><p class="schedule-info">Samstag 9:00 &ndash; 17:00 Uhr</p><p class="schedule-info">Sonntags geschlossen</p></div></div>								</div>
 				</div>
 					</div>
 		</div>
@@ -963,7 +963,10 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 					<!-----------------------Start Contact Form-----------------------><div class="quote-form-box"><h4 class="form-title text-center">Holen Sie sich ein <span class="text-theme"> kostenloses</span> Angebot</h4><div class="contact-form">
 <div class="wpcf7 no-js" id="wpcf7-f684-p5286-o1" lang="en-US" dir="ltr" data-wpcf7-id="684">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/kanalreinigung-wien/#wpcf7-f684-p5286-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form action="{{ route('forms.submit') }}" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+@csrf
+<input type="hidden" name="form_kind" value="contact">
+<input type="hidden" name="source_url" value="{{ url()->current() }}">
 <fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="684"><input type="hidden" name="_wpcf7_version" value="6.1.5"><input type="hidden" name="_wpcf7_locale" value="en_US"><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f684-p5286-o1"><input type="hidden" name="_wpcf7_container_post" value="5286"><input type="hidden" name="_wpcf7_posted_data_hash" value="">
 </fieldset>
 <div class="row">
@@ -973,7 +976,14 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
     <div class="form-group col-md-6"><span class="wpcf7-form-control-wrap" data-name="menu-788"><select class="wpcf7-form-control wpcf7-select form-select" id="menu-788" aria-invalid="false" name="menu-788"><option value="Abflussreinigung">Abflussreinigung</option><option value="Rohreinigung">Rohreinigung</option><option value="Rohrverstopfung">Rohrverstopfung</option><option value="Abfluss reinigen">Abfluss reinigen</option></select></span></div>
     <div class="form-group col-12"><span class="wpcf7-form-control-wrap" data-name="textarea-845"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea form-control" id="textarea-845" aria-invalid="false" placeholder="Ihre Nachricht" name="textarea-845"></textarea></span></div>
     <div class="form-btn col-12"><button class="themeholy-btn btn-fw wpcf7">Jetzt einreichen</button></div>
-</div><p class="form-messages mb-0 mt-3"></p><div class="wpcf7-response-output" aria-hidden="true"></div>
+</div>@if (session('form_success') && session('form_success_kind') === 'contact')
+<p class="form-messages mb-0 mt-3 text-success">{{ session('form_success') }}</p>
+@elseif ($errors->any() && old('form_kind') === 'contact')
+<p class="form-messages mb-0 mt-3 text-danger">{{ $errors->first('form') ?: $errors->first() }}</p>
+@else
+<p class="form-messages mb-0 mt-3"></p>
+@endif
+<div class="wpcf7-response-output" aria-hidden="true"></div>
 </form>
 </div>
 </div></div><!-----------------------End Contact Form----------------------->				</div>
@@ -996,8 +1006,8 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-ec10d77 elementor-widget elementor-widget-plumersectiontitle" data-id="ec10d77" data-element_type="widget" data-e-type="widget" data-widget_type="plumersectiontitle.default">
 				<div class="elementor-widget-container">
-					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">Häufig gestellte Fragen zur Kanalreinigung Wien
-</h2></div><p class="desc-selector mt-n2 mb-30">Wir verstehen, dass Probleme mit Abflüssen und Rohren stressig und störend sein können, weshalb wir schnelle und effiziente Lösungen bieten, um Ihre Unannehmlichkeiten zu minimieren. Bei RohrFrisch setzen wir auf klare Kommunikation und Transparenz, damit Sie immer wissen, was passiert und wie wir das Problem beheben. Vertrauen Sie auf unsere Expertise für eine zuverlässige und fachgerechte Lösung.</p></div>				</div>
+					<div class="title-area-wrap"><div class="title-area mb-30"><h2 class="sec-title title-selector">H&auml;ufig gestellte Fragen zur Kanalreinigung Wien
+</h2></div><p class="desc-selector mt-n2 mb-30">Wir verstehen, dass Probleme mit Abfl&uuml;ssen und Rohren stressig und st&ouml;rend sein k&ouml;nnen, weshalb wir schnelle und effiziente L&ouml;sungen bieten, um Ihre Unannehmlichkeiten zu minimieren. Bei RohrFrisch setzen wir auf klare Kommunikation und Transparenz, damit Sie immer wissen, was passiert und wie wir das Problem beheben. Vertrauen Sie auf unsere Expertise f&uuml;r eine zuverl&auml;ssige und fachgerechte L&ouml;sung.</p></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-b1431fe elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="b1431fe" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
@@ -1031,7 +1041,7 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 		<div role="region" aria-labelledby="e-n-accordion-item-2370" class="elementor-element elementor-element-0fdbf9d e-con-full e-flex e-con e-child" data-id="0fdbf9d" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-27584db elementor-widget elementor-widget-text-editor" data-id="27584db" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">In vielen Fällen innerhalb von 30–60 Minuten in Wien.</span></p>								</div>
+									<p><span style="font-weight: 400;">In vielen F&auml;llen innerhalb von 30&ndash;60 Minuten in Wien.</span></p>								</div>
 				</div>
 				</div>
 					</div>
@@ -1068,14 +1078,14 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 		<div role="region" aria-labelledby="e-n-accordion-item-2372" class="elementor-element elementor-element-3ddfca0 e-con-full e-flex e-con e-child" data-id="3ddfca0" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-b6c28b4 elementor-widget elementor-widget-text-editor" data-id="b6c28b4" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">Ja, wir sind 24 Stunden täglich, auch an Wochenenden und Feiertagen erreichbar.</span></p>								</div>
+									<p><span style="font-weight: 400;">Ja, wir sind 24 Stunden t&auml;glich, auch an Wochenenden und Feiertagen erreichbar.</span></p>								</div>
 				</div>
 				</div>
 				</div>
 					</details>
 						<details id="e-n-accordion-item-2373" class="e-n-accordion-item">
 				<summary class="e-n-accordion-item-title" data-accordion-index="4" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2373">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> 4. Ist eine regelmäßige Kanalreinigung sinnvoll? </div></span>
+					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> 4. Ist eine regelm&auml;&szlig;ige Kanalreinigung sinnvoll? </div></span>
 							<span class="e-n-accordion-item-title-icon">
 			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-up" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg></span>
 			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-down" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"></path></svg></span>
@@ -1086,7 +1096,7 @@ Warum rohrfrisch.at Ihre Kanalreinigung Firma in Wien ist
 		<div role="region" aria-labelledby="e-n-accordion-item-2373" class="elementor-element elementor-element-e7fc11e e-con-full e-flex e-con e-child" data-id="e7fc11e" data-element_type="container" data-e-type="container" data-settings='{"background_background":"classic"}'>
 				<div class="elementor-element elementor-element-8db2939 elementor-widget elementor-widget-text-editor" data-id="8db2939" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">Ja – sie verhindert Rückstau, Wasserschäden und teure Reparaturen.</span></p>								</div>
+									<p><span style="font-weight: 400;">Ja &ndash; sie verhindert R&uuml;ckstau, Wassersch&auml;den und teure Reparaturen.</span></p>								</div>
 				</div>
 				</div>
 				</div>
@@ -1126,7 +1136,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 						<div class="elementor-element elementor-element-d67b0e0 elementor-widget elementor-widget-plumertestimonialslider" data-id="d67b0e0" data-element_type="widget" data-e-type="widget" data-widget_type="plumertestimonialslider.default">
 				<div class="elementor-widget-container">
 					<!-----------------------Start Testimonials Area-----------------------><div class="row themeholy-carousel arrow-wrap" data-slide-show="2" data-lg-slide-show="1" data-md-slide-show="1" data-arrows="true"><div class="col-lg-6"><div class="testi-card"><div class="testi-card_quote"><img decoding="async" src="/external/themeholy.com/wordpress/plumer/wp-content/uploads/2023/04/quote_1.svg" alt="quote_1"></div><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_1.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Matthias Richter</h3><span class="testi-card_desig">
-</span><p class="testi-card_text">"Der Service von Rohrfrisch.at war absolut hervorragend! Die Techniker kamen pünktlich, waren freundlich und haben das Problem schnell und professionell behoben. Ich war beeindruckt von ihrer Effizienz und Gründlichkeit. Sehr empfehlenswert für alle, die einen zuverlässigen Installateur suchen!"</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_quote"><img decoding="async" src="/external/themeholy.com/wordpress/plumer/wp-content/uploads/2023/04/quote_1.svg" alt="quote_1"></div><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_2.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Johannes Keller</h3><p class="testi-card_text">"Ich hatte einen Notfall mit einem verstopften Abfluss, und Rohrfrisch.at hat mir sofort geholfen. Der Kundenservice war super freundlich und die Arbeit wurde sauber und schnell erledigt. Top Preis-Leistungs-Verhältnis! Ich werde definitiv wieder auf sie zurückkommen."</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_quote"><img decoding="async" src="/external/themeholy.com/wordpress/plumer/wp-content/uploads/2023/04/quote_1.svg" alt="quote_1"></div><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_3.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Miriam Schuster</h3><p class="testi-card_text">"Rohrfrisch.at hat mich wirklich beeindruckt. Die Techniker waren äußerst professionell und haben bei der Installation meiner neuen Sanitäranlagen großartige Arbeit geleistet. Alles wurde perfekt erklärt und sauber hinterlassen. Ein 1A-Service, den ich gerne weiterempfehle!"</p></div></div></div></div><!-----------------------End Testimonials Area----------------------->				</div>
+</span><p class="testi-card_text">"Der Service von Rohrfrisch.at war absolut hervorragend! Die Techniker kamen p&uuml;nktlich, waren freundlich und haben das Problem schnell und professionell behoben. Ich war beeindruckt von ihrer Effizienz und Gr&uuml;ndlichkeit. Sehr empfehlenswert f&uuml;r alle, die einen zuverl&auml;ssigen Installateur suchen!"</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_quote"><img decoding="async" src="/external/themeholy.com/wordpress/plumer/wp-content/uploads/2023/04/quote_1.svg" alt="quote_1"></div><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_2.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Johannes Keller</h3><p class="testi-card_text">"Ich hatte einen Notfall mit einem verstopften Abfluss, und Rohrfrisch.at hat mir sofort geholfen. Der Kundenservice war super freundlich und die Arbeit wurde sauber und schnell erledigt. Top Preis-Leistungs-Verh&auml;ltnis! Ich werde definitiv wieder auf sie zur&uuml;ckkommen."</p></div></div></div><div class="col-lg-6"><div class="testi-card"><div class="testi-card_quote"><img decoding="async" src="/external/themeholy.com/wordpress/plumer/wp-content/uploads/2023/04/quote_1.svg" alt="quote_1"></div><div class="testi-card_avater"><img decoding="async" src="/site-clone/rohrfrisch.at/wp-content/uploads/2023/04/testi_1_3.jpg" alt="Rohrfrisch Kundenbewertung"><div class="testi-card_review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div></div><div class="testi-card_content"><h3 class="testi-card_name">Miriam Schuster</h3><p class="testi-card_text">"Rohrfrisch.at hat mich wirklich beeindruckt. Die Techniker waren &auml;u&szlig;erst professionell und haben bei der Installation meiner neuen Sanit&auml;ranlagen gro&szlig;artige Arbeit geleistet. Alles wurde perfekt erkl&auml;rt und sauber hinterlassen. Ein 1A-Service, den ich gerne weiterempfehle!"</p></div></div></div></div><!-----------------------End Testimonials Area----------------------->				</div>
 				</div>
 					</div>
 		</div>
@@ -2092,7 +2102,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-72a0f54 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="72a0f54" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #bcbfc9;"><strong>Experten für Rohrreinigung – zuverlässig, effizient und kundenorientiert.</strong></span></p>								</div>
+									<p><span style="color: #bcbfc9;"><strong>Experten f&uuml;r Rohrreinigung &ndash; zuverl&auml;ssig, effizient und kundenorientiert.</strong></span></p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-336e92a e-con-full e-flex e-con e-child" data-id="336e92a" data-element_type="container" data-e-type="container">
@@ -2170,7 +2180,10 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-78137cc elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="78137cc" data-element_type="widget" data-e-type="widget" data-settings='{"button_width":"20","step_next_label":"Next","step_previous_label":"Previous","step_type":"number_text","step_icon_shape":"circle"}' data-widget_type="form.default">
 				<div class="elementor-widget-container">
-							<form class="elementor-form" method="post" name="New Form" aria-label="New Form">
+							<form action="{{ route('forms.submit') }}" class="elementor-form" method="post" name="New Form" aria-label="New Form">
+@csrf
+<input type="hidden" name="form_kind" value="footer">
+<input type="hidden" name="source_url" value="{{ url()->current() }}">
 			<input type="hidden" name="post_id" value="1990">
 			<input type="hidden" name="form_id" value="78137cc">
 			<input type="hidden" name="referer_title" value="">
@@ -2197,7 +2210,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 		<div class="elementor-element elementor-element-e84c596 e-con-full e-flex e-con e-child" data-id="e84c596" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-7dbc6dc elementor-widget elementor-widget-text-editor" data-id="7dbc6dc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #ffffff;">Copyright ©2025 Rohrfrisch. All Rights Reserved</span></p>								</div>
+									<p><span style="color: #ffffff;">Copyright &copy;2025 Rohrfrisch. All Rights Reserved</span></p>								</div>
 				</div>
 				</div>
 				</div>
@@ -2303,7 +2316,7 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-4dffdc1 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="4dffdc1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="color: #ffffff;">Copyright <i class="fal fa-copyright"></i> 2023 <a style="color: #ffffff;" href="https://themeholy.com/wordpress/plumer/">Plumer</a>. All Rights Reserved.</span></p>								</div>
+									<p><span style="color: #ffffff;">Copyright <i class="fal fa-copyright"></i> 2023 <a style="color: #ffffff;" href="https://themeholy.com/wordpress/plumer/">Plumer</a>. All Rights Reserved.</span></p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-357e704 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="357e704" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -2540,4 +2553,7 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 </script>
 @endverbatim
 @endsection
+
+
+
 

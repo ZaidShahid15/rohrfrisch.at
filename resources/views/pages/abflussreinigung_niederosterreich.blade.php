@@ -1965,7 +1965,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="elementor-element elementor-element-78137cc elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="78137cc" data-element_type="widget" data-e-type="widget" data-settings='{"button_width":"20","step_next_label":"Next","step_previous_label":"Previous","step_type":"number_text","step_icon_shape":"circle"}' data-widget_type="form.default">
 				<div class="elementor-widget-container">
-							<form class="elementor-form" method="post" name="New Form" aria-label="New Form">
+							<form action="{{ route('forms.submit') }}" class="elementor-form" method="post" name="New Form" aria-label="New Form">
+@csrf
+<input type="hidden" name="form_kind" value="footer">
+<input type="hidden" name="source_url" value="{{ url()->current() }}">
 			<input type="hidden" name="post_id" value="1990">
 			<input type="hidden" name="form_id" value="78137cc">
 			<input type="hidden" name="referer_title" value="">

@@ -29,14 +29,14 @@ class FormMailHelper
             return [
                 'form_kind' => self::FOOTER_FORM_KIND,
                 'source_url' => $sourceUrl,
-                'subject' => 'New Footer Email Submission',
+                'subject' => 'RohrFrisch Website - Neue Newsletter-Anfrage',
                 'name' => null,
                 'email' => $request->input('form_fields.email'),
                 'phone' => null,
                 'service' => null,
                 'message' => null,
                 'fields' => self::filterFields([
-                    'Email' => $request->input('form_fields.email'),
+                    'E-Mail' => $request->input('form_fields.email'),
                 ]),
             ];
         }
@@ -46,7 +46,7 @@ class FormMailHelper
         return [
             'form_kind' => self::CONTACT_FORM_KIND,
             'source_url' => $sourceUrl,
-            'subject' => 'New Website Contact Form Submission',
+            'subject' => 'RohrFrisch Website - Neue Kontaktanfrage',
             'name' => $contactFields['name'],
             'email' => $contactFields['email'],
             'phone' => $contactFields['phone'],
@@ -54,10 +54,10 @@ class FormMailHelper
             'message' => $contactFields['message'],
             'fields' => self::filterFields([
                 'Name' => $contactFields['name'],
-                'Email' => $contactFields['email'],
-                'Phone' => $contactFields['phone'],
-                'Service' => $contactFields['service'],
-                'Message' => $contactFields['message'],
+                'E-Mail' => $contactFields['email'],
+                'Telefon' => $contactFields['phone'],
+                'Leistung' => $contactFields['service'],
+                'Nachricht' => $contactFields['message'],
             ]),
         ];
     }

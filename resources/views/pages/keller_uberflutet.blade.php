@@ -964,7 +964,10 @@ bei Wasserschäden
 					<!-----------------------Start Contact Form-----------------------><div class="quote-form-box"><h4 class="form-title text-center">Holen Sie sich ein <span class="text-theme"> kostenloses</span> Angebot</h4><div class="contact-form">
 <div class="wpcf7 no-js" id="wpcf7-f684-p5381-o1" lang="en-US" dir="ltr" data-wpcf7-id="684">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/keller-uberflutet/#wpcf7-f684-p5381-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form action="{{ route('forms.submit') }}" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+@csrf
+<input type="hidden" name="form_kind" value="contact">
+<input type="hidden" name="source_url" value="{{ url()->current() }}">
 <fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="684"><input type="hidden" name="_wpcf7_version" value="6.1.5"><input type="hidden" name="_wpcf7_locale" value="en_US"><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f684-p5381-o1"><input type="hidden" name="_wpcf7_container_post" value="5381"><input type="hidden" name="_wpcf7_posted_data_hash" value="">
 </fieldset>
 <div class="row">
@@ -974,7 +977,14 @@ bei Wasserschäden
     <div class="form-group col-md-6"><span class="wpcf7-form-control-wrap" data-name="menu-788"><select class="wpcf7-form-control wpcf7-select form-select" id="menu-788" aria-invalid="false" name="menu-788"><option value="Abflussreinigung">Abflussreinigung</option><option value="Rohreinigung">Rohreinigung</option><option value="Rohrverstopfung">Rohrverstopfung</option><option value="Abfluss reinigen">Abfluss reinigen</option></select></span></div>
     <div class="form-group col-12"><span class="wpcf7-form-control-wrap" data-name="textarea-845"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea form-control" id="textarea-845" aria-invalid="false" placeholder="Ihre Nachricht" name="textarea-845"></textarea></span></div>
     <div class="form-btn col-12"><button class="themeholy-btn btn-fw wpcf7">Jetzt einreichen</button></div>
-</div><p class="form-messages mb-0 mt-3"></p><div class="wpcf7-response-output" aria-hidden="true"></div>
+</div>@if (session('form_success') && session('form_success_kind') === 'contact')
+<p class="form-messages mb-0 mt-3 text-success">{{ session('form_success') }}</p>
+@elseif ($errors->any() && old('form_kind') === 'contact')
+<p class="form-messages mb-0 mt-3 text-danger">{{ $errors->first('form') ?: $errors->first() }}</p>
+@else
+<p class="form-messages mb-0 mt-3"></p>
+@endif
+<div class="wpcf7-response-output" aria-hidden="true"></div>
 </form>
 </div>
 </div></div><!-----------------------End Contact Form----------------------->				</div>
@@ -2171,7 +2181,10 @@ Was sagen unsere Kunden?</h2></div></div>				</div>
 				</div>
 				<div class="elementor-element elementor-element-78137cc elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="78137cc" data-element_type="widget" data-e-type="widget" data-settings='{"button_width":"20","step_next_label":"Next","step_previous_label":"Previous","step_type":"number_text","step_icon_shape":"circle"}' data-widget_type="form.default">
 				<div class="elementor-widget-container">
-							<form class="elementor-form" method="post" name="New Form" aria-label="New Form">
+							<form action="{{ route('forms.submit') }}" class="elementor-form" method="post" name="New Form" aria-label="New Form">
+@csrf
+<input type="hidden" name="form_kind" value="footer">
+<input type="hidden" name="source_url" value="{{ url()->current() }}">
 			<input type="hidden" name="post_id" value="1990">
 			<input type="hidden" name="form_id" value="78137cc">
 			<input type="hidden" name="referer_title" value="">

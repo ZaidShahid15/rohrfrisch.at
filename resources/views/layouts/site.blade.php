@@ -79,6 +79,13 @@
 </head>
 <body @yield('body_attributes')>
     @yield('content')
+    @if (session('form_success'))
+        <script>
+            window.addEventListener('load', function () {
+                alert(@json(session('form_success')));
+            });
+        </script>
+    @endif
     @yield('scripts')
 </body>
 </html>

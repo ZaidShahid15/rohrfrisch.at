@@ -34,7 +34,7 @@ class FormSubmissionController extends Controller
         });
 
         return back()->with([
-            'form_success' => 'Your message has been sent successfully.',
+            'form_success' => 'Ihre Nachricht wurde erfolgreich gesendet.',
             'form_success_kind' => $payload['form_kind'],
         ]);
     }
@@ -47,13 +47,13 @@ class FormSubmissionController extends Controller
 
         if (blank($name) || blank($email)) {
             throw ValidationException::withMessages([
-                'form' => 'Name and email are required.',
+                'form' => 'Name und E-Mail sind erforderlich.',
             ]);
         }
 
         if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
             throw ValidationException::withMessages([
-                'form' => 'A valid email address is required.',
+                'form' => 'Bitte geben Sie eine gueltige E-Mail-Adresse ein.',
             ]);
         }
     }
