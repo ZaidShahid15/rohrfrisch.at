@@ -317,7 +317,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="elementor-element elementor-element-cef668f e-con-full elementor-hidden-desktop elementor-hidden-tablet e-flex e-con e-child" data-id="cef668f" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-3fa22e0 elementor-widget elementor-widget-heading" data-id="3fa22e0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default"><span style="color:#e83a15">Kanalreinigung Wien</span> &ndash; Ihr Profi f&uuml;r schnelle &amp; zuverl&auml;ssige Hilfe</h1>				</div>
+					<h2 class="elementor-heading-title elementor-size-default"><span style="color:#e83a15">Kanalreinigung Wien</span> &ndash; Ihr Profi f&uuml;r schnelle &amp; zuverl&auml;ssige Hilfe</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-4d949ca e-con-full e-flex e-con e-child" data-id="4d949ca" data-element_type="container" data-e-type="container">
