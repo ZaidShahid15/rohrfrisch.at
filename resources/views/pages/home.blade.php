@@ -1,6 +1,6 @@
 ﻿@extends('layouts.site')
 
-@section('title', 'RohrFrisch')
+@section('title', 'RohrFrisch – Ihre Experten für Rohr- & Abflussreinigung in Wien')
 
 @section('body_attributes')
 class="home wp-singular page-template page-template-elementor_header_footer page page-id-1820 wp-custom-logo wp-embed-responsive wp-theme-plumer theme-plumer woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-1820"
@@ -13,6 +13,20 @@ class="home wp-singular page-template page-template-elementor_header_footer page
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<meta name="description" content="RohrFrisch bietet professionelle Rohr- &amp; Abflussreinigung in Wien, Niederösterreich &amp; Burgenland. 24/7 erreichbar, fair &amp; transparent. Jetzt anrufen!">
+<meta property="og:description" content="RohrFrisch bietet professionelle Rohr- &amp; Abflussreinigung in Wien, Niederösterreich &amp; Burgenland. 24/7 erreichbar, fair &amp; transparent. Jetzt anrufen!">
+<meta property="og:image" content="https://klickpin.site/wp-content/uploads/2025/01/360_F_256780711_dzxq5dsGENwSwHOoyalKQjV0NKHVjS2C.jpg">
+<meta property="og:image:alt" content="Rohrreinigung">
+<meta property="og:image:height" content="360">
+<meta property="og:image:secure_url" content="https://klickpin.site/wp-content/uploads/2025/01/360_F_256780711_dzxq5dsGENwSwHOoyalKQjV0NKHVjS2C.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="539">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="rohrfrisch.at">
+<meta property="og:title" content="RohrFrisch – Ihre Experten für Rohr- &amp; Abflussreinigung in Wien">
+<meta property="og:type" content="website">
+<meta property="og:updated_time" content="2025-11-07T17:03:10+00:00">
+<meta property="og:url" content="https://klickpin.site/">
 
 <meta name="robots" content="index, follow">
 

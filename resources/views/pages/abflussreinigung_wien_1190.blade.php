@@ -1,6 +1,6 @@
 @extends('layouts.site')
 
-@section('title', 'Abflussreinigung Wien 1190 – RohrFrisch')
+@section('title', 'Effektive Abflussreinigung Wien 1190 – Schnelle Hilfe bei Verstopfung')
 
 @section('body_attributes')
 class="wp-singular page-template page-template-elementor_header_footer page page-id-2954 wp-custom-logo wp-embed-responsive wp-theme-plumer theme-plumer woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-2954"
@@ -13,6 +13,20 @@ class="wp-singular page-template page-template-elementor_header_footer page page
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<meta name="description" content="Zuverlässige Abflussreinigung Wien 1190 – Effektive Rohrreinigung bei Verstopfungen. 24/7 Notdienst, faire Preise, schnelle Hilfe. Jetzt kontaktieren!">
+<meta property="og:description" content="Zuverlässige Abflussreinigung Wien 1190 – Effektive Rohrreinigung bei Verstopfungen. 24/7 Notdienst, faire Preise, schnelle Hilfe. Jetzt kontaktieren!">
+<meta property="og:image" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:alt" content="bewerten-sie-uns-auf-google">
+<meta property="og:image:height" content="300">
+<meta property="og:image:secure_url" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="rohrfrisch.at">
+<meta property="og:title" content="Effektive Abflussreinigung Wien 1190 – Schnelle Hilfe bei Verstopfung">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="2025-02-21T19:02:57+00:00">
+<meta property="og:url" content="https://klickpin.site/abflussreinigung-wien-1190/">
 
 <meta name="robots" content="index, follow">
 

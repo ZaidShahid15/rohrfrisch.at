@@ -1,6 +1,6 @@
 ﻿@extends('layouts.site')
 
-@section('title', 'Rohrverstopfung Wien 1040 &ndash; RohrFrisch')
+@section('title', 'Effektive Lösungen bei Rohrverstopfung Wien 1040 - Schnelle Hilfe!')
 
 @section('body_attributes')
 class="wp-singular page-template page-template-elementor_header_footer page page-id-2997 wp-custom-logo wp-embed-responsive wp-theme-plumer theme-plumer woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-2997"
@@ -13,6 +13,20 @@ class="wp-singular page-template page-template-elementor_header_footer page page
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<meta name="description" content="Erfahren Sie, wie Sie Rohrverstopfung Wien 1040 effektiv beheben können. Schnelle Hilfe und praktische Lösungen warten auf Sie!">
+<meta property="og:description" content="Erfahren Sie, wie Sie Rohrverstopfung Wien 1040 effektiv beheben können. Schnelle Hilfe und praktische Lösungen warten auf Sie!">
+<meta property="og:image" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:alt" content="bewerten-sie-uns-auf-google">
+<meta property="og:image:height" content="300">
+<meta property="og:image:secure_url" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="rohrfrisch.at">
+<meta property="og:title" content="Effektive Lösungen bei Rohrverstopfung Wien 1040 - Schnelle Hilfe!">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="2025-02-21T22:27:22+00:00">
+<meta property="og:url" content="https://klickpin.site/rohrverstopfung-wien-1040/">
 
 <meta name="robots" content="index, follow">
 

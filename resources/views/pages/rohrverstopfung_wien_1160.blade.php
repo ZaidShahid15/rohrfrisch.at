@@ -1,6 +1,6 @@
 @extends('layouts.site')
 
-@section('title', 'Rohrverstopfung Wien 1160 – RohrFrisch')
+@section('title', 'Rohrverstopfung Wien 1160 – Ihre schnelle Lösung bei Abflussproblemen')
 
 @section('body_attributes')
 class="wp-singular page-template page-template-elementor_header_footer page page-id-3064 wp-custom-logo wp-embed-responsive wp-theme-plumer theme-plumer woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-3064"
@@ -13,6 +13,20 @@ class="wp-singular page-template page-template-elementor_header_footer page page
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<meta name="description" content="Erleben Sie schnelle Hilfe bei Rohrverstopfung Wien 1160. Entdecken Sie effektive Lösungen für Ihre Abflussprobleme. Jetzt den Artikel lesen!">
+<meta property="og:description" content="Erleben Sie schnelle Hilfe bei Rohrverstopfung Wien 1160. Entdecken Sie effektive Lösungen für Ihre Abflussprobleme. Jetzt den Artikel lesen!">
+<meta property="og:image" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:alt" content="bewerten-sie-uns-auf-google">
+<meta property="og:image:height" content="300">
+<meta property="og:image:secure_url" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="rohrfrisch.at">
+<meta property="og:title" content="Rohrverstopfung Wien 1160 – Ihre schnelle Lösung bei Abflussproblemen">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="2025-02-21T23:50:15+00:00">
+<meta property="og:url" content="https://klickpin.site/rohrverstopfung-wien-1160/">
 
 <meta name="robots" content="index, follow">
 

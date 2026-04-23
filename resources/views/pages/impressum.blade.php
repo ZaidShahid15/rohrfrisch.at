@@ -1,6 +1,6 @@
 @extends('layouts.site')
 
-@section('title', 'Impressum – RohrFrisch')
+@section('title', 'Impressum - RohrFrisch')
 
 @section('body_attributes')
 class="wp-singular page-template page-template-elementor_header_footer page page-id-2304 wp-custom-logo wp-embed-responsive wp-theme-plumer theme-plumer woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-2304"
@@ -13,6 +13,20 @@ class="wp-singular page-template page-template-elementor_header_footer page page
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<meta name="description" content="Kontakttel:+4314420059">
+<meta property="og:description" content="Kontakttel:+4314420059">
+<meta property="og:image" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:alt" content="bewerten-sie-uns-auf-google">
+<meta property="og:image:height" content="300">
+<meta property="og:image:secure_url" content="https://klickpin.site/wp-content/uploads/2025/01/bewerten-sie-uns-auf-google-300x300-1.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="rohrfrisch.at">
+<meta property="og:title" content="Impressum - RohrFrisch">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="2025-10-16T15:24:21+00:00">
+<meta property="og:url" content="https://klickpin.site/impressum/">
 
 <meta name="robots" content="index, follow">
 
